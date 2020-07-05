@@ -1,0 +1,4 @@
+u 0:00 0:36 URL\sld045.htm
+u 0:36 1:21 URL\sld046.htm
+u 1:21 2:31 URL\sld047.htm
+u 2:31 5:17 URL\sld048.htm

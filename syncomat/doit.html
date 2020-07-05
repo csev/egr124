@@ -1,0 +1,66 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<META NAME="Generator" CONTENT="Microsoft Word 97">
+<META NAME="Template" CONTENT="C:\PROGRAM FILES\MICROSOFT OFFICE\OFFICE\html.dot">
+</HEAD>
+<BODY LINK="#0000ff" VLINK="#800080">
+
+<FONT SIZE=2><P>&nbsp;</P>
+<B><P>The Style Subdirectory</P>
+</B><P>&nbsp;</P>
+<P>The style subdirectory stores all the stuff need to make this work.  I have one style - style\basic - this implements my format.  It even includes pictures of me (which you probably should change)   You can create your own style versions, my suggestion is to start with mine and make small changes, testing along the way.  Within the style subdirectory, there is &nbsp;a subdirectory called "copy" - the contents of this subdirectory are simply copied into the destination directory as part of the lecture production process.  This is a good place to put instructor pictures, button GIFs, empty.rpm or anything that the skel.htm and part*.htm files need to reference.</P>
+<P>Here is an example directory structure:</P>
+</FONT><FONT FACE="Courier New" SIZE=2><P>PART0AN HTM 956 06-08-97 11:40a part0an.htm</P>
+<P>PART0VN HTM 903 06-08-97 11:41a part0vn.htm</P>
+<P>PART0AF HTM 843 06-12-97 9:01p part0af.htm</P>
+<P>PART0VF HTM 963 06-12-97 9:02p part0vf.htm</P>
+<P>SKEL HTM 713 06-06-97 4:04p skel.htm</P>
+</FONT><FONT SIZE=2><P>We will cover each file in some detail.</P>
+<B><P>part0af.htm</B> is a file which sets up the frames environment so that the Audio plays on the left and the slides appear on the right. This file also has the non-frames version of the audio for the slide. </P>
+<B><P>part0an.htm</B> is a skeleton file which sets up the embedded player for the audio (the left frame). </P>
+<P>The vf and vn files are the same for video. I use frames so I have control of where the video and slides are relative to the same page.</P>
+<B><P>skel.htm</B> is the file which forms the basis for all of the sldnnn.htm files produced by DoIt!.</P>
+<P>&nbsp;This is a sample skeleton file - It directs the operation of the DoIT! program. It is the skeleton for all of the sld*.htm files. It really allows you to discard all the crap produced by PowerPoint and have total control over how your slides are presented. It is processed in sequential order. Significant portions of the file are highlighted.</P>
+<P>&nbsp;</P>
+</FONT><B><FONT FACE="Courier New" SIZE=2><P># This is a skeleton file for slideconvert </P>
+</B><P>&lt;HTML&gt;</P>
+<B><P>!HEAD</P>
+</B><P>&lt;body bgcolor="#FFFFFF"&gt;</P>
+<P>&lt;CENTER&gt;</P>
+<P>&lt;IMG src=img<B>N#N</B>.gif</P>
+<P>alt="Slide number <B>N#N</B>" border=1 usemap="#Objmap" </P>
+<P>WIDTH=400 HEIGHT=300&gt;</P>
+<P>&lt;/CENTER&gt;</P>
+<P>&lt;BR&gt;</P>
+<B><P>!NOTES</P>
+</B><P>&lt;P&gt;</P>
+<P>&lt;CENTER&gt;</P>
+<P>[&lt;a href="http://www.vu.msu.edu/preview/egr124/"Preview&lt;/a&gt;]</P>
+<P>[&lt;a href="http://cps291.vu.msu.edu/" target="_top"&gt;Course&lt;/a&gt;]</P>
+<P>[&lt;a href=".." target="_top"&gt;Lectures&lt;/a&gt;]</P>
+<P>[&lt;a href="list.htm"&gt;Slides&lt;/a&gt;]</P>
+<P>[&lt;a href="sld001.htm"&gt;First&lt;/a&gt;]</P>
+<P>[&lt;a href="<B>back.htm</B>"&gt;Back&lt;/a&gt;]</P>
+<P>[&lt;a href="<B>next.htm</B>"&gt;Next&lt;/a&gt;]</P>
+<P>[&lt;a href="tsld<B>N#N</B>.htm"&gt;Text_Slide&lt;/a&gt;]</P>
+<P>[&lt;a HREF="http://www.vu.msu.edu/preview/cps291/email/"&gt;Feedback&lt;/a&gt;]</P>
+<P>&lt;/CENTER&gt;</P>
+<B><P>!MAP</P>
+</B><P>&lt;/HTML&gt;</P>
+</FONT><FONT SIZE=2><P>Looking at the elements in this file, we make the following observations:</P>
+<P>Any line starting with # is a comment, ignored - not copied into the sld*.htm file</P>
+<P>!HEAD extracts the header material from the PowerPoint version of the slide <I>including</I> the &lt;/HEAD&gt;</P>
+<P>Anywhere N#N appears, it is replaced with the three digit version of the slide number</P>
+<P>!NOTES extracts the notes information from the PowerPoint version of the slide</P>
+<P>Anywhere back.htm appears, it is replaced with the slide number less one </P>
+<P>Anywhere next.htm appears, it is the next slide. For example if we were on slide 17, back.htm would be sld016.htm and next.htm would be sld018.htm.</P>
+<P>!MAP extracts the client-side image map information from the PowerPoint version of the slide. It is always called #Objmap so that can be hard coded into skel.htm</P>
+<B><P>Summary</P>
+</B><P>I will try to keep the tools up-to-date at </FONT><A HREF="http://www.egr.msu.edu/~crs/projects/vutools/"><FONT SIZE=2>http://www.egr.msu.edu/~crs/projects/vutools/</FONT></A><FONT SIZE=2> - I hope that if you find bugs, you will be understanding and help me make these tools more useful. </P>
+<P>&nbsp;</P>
+<P>Charles Severance</P>
+<P>Michigan State University</P>
+</FONT><P><A HREF="http://www.egr.msu.edu/~crs/"><FONT SIZE=2>http://www.egr.msu.edu/~crs/</FONT></A></P>
+<FONT SIZE=2><P>25Nov97 13:50</P></FONT></BODY>
+</HTML>

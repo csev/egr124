@@ -1,0 +1,141 @@
+<!--
+s/@TITLE@/The Gauntlet/
+s/@THIS@/Assignment 1/
+-->
+Due Date: January 31, 1998
+<h2>Assignment Overview</h2>
+<p>
+This is the first assignment for EGR124 - It is a pass/fail assignment.  
+If you do not complete this assignment on time, you will be dropped from 
+the class.
+While getting dropped from the class may seem draconian, it actually is 
+better than struggling with some lousy computer all semester long only
+to fail the class later.  If that happened I would feel terrible.
+<p>
+The purpose of this assignment is to insure that you have sufficient access 
+to technology and skills to complete this course.  So, the first few weeks
+of EGR124 are a crash course to make sure that you can do the rest of 
+the course.
+<p>
+I don't want to have a single EGR124 student fail this assignment.  
+This assignment was designed so that you should be able to accomplish it 
+without being a computer genius.  
+You may need some extra help from other people or from me during this time.
+That is OK.  My phone number is 517-353-2268 and my email is crs@egr.msu.edu
+make sure to ask me for help if you need it.  <b> And don't wait until the 
+last minute</b>.
+<p>
+I have prepared a video lecture to help you through this process.  The lecture
+is titled, <b>Welcome to the Michigan State University Virtual University</b>.
+The rough outline of this lecture is as follows:
+<ul>
+<li><a href=../lectures/welc/welc1.htm>Welcome</a> - What is a PID/PAN? How do you call the hotline?  What is a Pilot ID?  Where are REX offices?
+<li><a href=../lectures/welc/welc2.htm>Installing Software </a> - Windows-95 Communication, TCP/IP and Hyper Terminal.
+<li><a href=../lectures/welc/welc3.htm>Connecting and Activating</a> - 
+  Making your first connection?  Which modem to call?  How to activate your
+  Pilot ID?
+<li><a href=../lectures/welc/welc4.htm>Internet Connection</a> - 
+  Now that you have your Pilot ID, how do use the state-wide Internet access?
+<li><a href=../lectures/welc/welc5.htm>Using Pilot</a> - 
+  Using Telnet to connect to Pilot.  Using E-Mail in Pilot.
+<li><a href=../lectures/welc/welc6.htm>Installing the RealPlayer Plug-In</a> - 
+  What is a Plug-in?  How do you install the RealPlayer?
+<li><a href=../lectures/welc/welc7.htm>A Virtual University Course</a> - 
+  Exploring an example virtual university course.
+<li> <a href=../lectures/welc/welc8.htm> Your First Web Page </a> <BR>
+Step by step guide to editing and uploading a simple web page to Pilot.
+<li><a href=../lectures/welc/welc9.htm> Hardware </a>  - Installing a modem<BR>  
+</ul>
+<p>
+To view the lecture you have several choices:
+<ul>
+<li>
+Watch it on television - The schedule is available on line at
+<a href=../overview/tv.htm> 
+http://www.vu.msu.edu/preview/egr124/lectures/overview/tv.htm
+</a> 
+<li>
+You can get a copy of the tape if you are taking a VU course from far away 
+by contacting Dianne Zimmerman, 517-353-8977 or zimmerdl@pilot.msu.edu.
+For High School students we send one copy of the tape to each high school.
+With the tape, you should receive a copy of the lecture notes and the list
+of dial-up numbers for the the MichNet network.
+<li>You can also watch the lecture on the web.  However, you need a pretty
+fast network conection or a lot of patience.  I assumed that the web version
+would not be useful because you need to get everything working and if you
+had things working well enough to view the lectures on-line, then you 
+didn't need much of the the lecture.  
+Please let me know if this is not the case.
+The URL for the on-line version of the tapes is
+<a href=../lectures/welc/> 
+http://www.vu.msu.edu/preview/egr124/lectures/welc/
+</a> 
+</ul>
+There is a set of notes which you may or may not need.  There are 
+several ways to get the notes.
+<ul>
+<li>
+For people viewing from a video tape, you can get a copy of the notes on 
+paper.  If you received a tape without notes, call me at 
++517-353-2268 or send me E-Mail at crs@egr.msu.edu and include your address.
+In the future, all tapes should be sent with a set of notes.
+<li>
+You can also download the PowerPoint for the lecture at
+<a href=../lectures/welc/welc.ppt> 
+http://www.vu.msu.edu/preview/egr124/lectures/welc/welc.ppt
+</a> 
+<li>
+You can look at the lecture slides on-line at:
+<a href=../lectures/welc/welc/> 
+http://www.vu.msu.edu/preview/egr124/lectures/welc/welc/
+</a> 
+</ul>
+</h2>Assignment Tasks</h2>
+For this assignment you will perform a number of tasks.  You could call these 
+tasks "challenges", "quests", or even "adventures".  At the end of 
+some quests, you will be given a key-word.  For other quests, I or a TA
+will grade the results of the quest and indicate that you passed by sending you the cluse by E-Mail.  You may get the answer several times from myself or 
+the TA.
+<p>
+To complete this assignment, you will need to view the following pages:
+<ul>
+<li> <a href=gaunt.htm>Gauntlet Tasks - 
+http://www.vu.msu.edu/preview/egr124/grades/gaunt.htm
+</a>
+<li> 
+<a href=http://egr124.vu.msu.edu/cgi-class/gauntlet> 
+Gauntlet Challenge Form  -
+http://egr124.vu.msu.edu/cgi-class/gauntlet
+</a> <BR>
+</ul>
+<h2>References</h2>
+You may find some of the pages listed below helpful in your quest:
+<ul>
+<li>  
+<a href=../help/index.htm>
+The On-Line Help page with frequently asked questions
+http://www.vu.msu.edu/preview/egr124/help/index.htm
+</a>
+<li> 
+<a href=../help/pilotnew/index.htm>
+How to Activate a Pilot ID -
+http://www.vu.msu.edu/preview/egr124/help/pilotnew/index.htm
+</a>
+<li>
+<a href=../help/aol/index.htm>
+How to View EGR124 over AOL - 
+http://www.vu.msu.edu/preview/egr124/help/aol/index.htm
+</a>
+<li>
+<a href=../help/macdial/index.htm>
+Connecting Using a Macintosh - 
+http://www.vu.msu.edu/preview/egr124/help/macdial/index.htm
+</a>
+</ul>
+Good Luck.  Please let me know how well this works for you.  
+Keep checking the pages for updated information as students 
+come up with problems.
+<address>
+<a href=../grades/assn1.htm>
+http://www.vu.msu.edu/preview/egr124/grades/assn1.htm
+</a>

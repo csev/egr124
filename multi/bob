@@ -1,0 +1,15 @@
+#! /bin/csh
+
+set old=$1
+set new=$2
+
+foreach i ( ${old}* ) 
+  set j=`echo $i | sed s/$old/$new/`
+  echo mv $i $j
+  mv $i $j
+end
+
+sed s/$old/$new/g < index.htm > index.new
+diff index.htm index.new
+echo OK
+if ( $< == 'y' ) mv index.new index.htm

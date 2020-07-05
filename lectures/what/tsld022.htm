@@ -1,0 +1,54 @@
+
+<HTML>
+
+<HEAD>
+<META HTTP-EQUIV="Context-Type" CONTEXT="text/html;charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft Internet Assistant for PowerPoint 97">
+ <TITLE>Exposing Details - Traceroute</TITLE> 
+</HEAD>
+
+<BODY     >
+
+ <H1>Exposing Details - Traceroute</H1> 
+ <P><UL>
+<LI><H2>Normally cannot determine the routing details
+</H2>
+</UL><UL>
+<LI><H2>Traceroute (tracert) - Sends packets 1,2,3,4.. hops and gets a reply
+</H2>
+</UL><UL>
+<LI><H2>Shows the route - may change an instant later
+</H2>
+</UL><UL>
+<LI><H2>There are Web sites which can do traceroute</H2>
+</UL></P>
+<P></P> 
+<P>
+<TABLE>
+  <TD HEIGHT=100 WIDTH=100> <A HREF="tsld021.htm">Previous slide</A> </TD>
+  <TD HEIGHT=100 WIDTH=100> <A HREF="tsld023.htm">Next slide</A> </TD>
+  <TD HEIGHT=100 WIDTH=150> <A HREF="tsld001.htm">Back to first slide</A> </TD>
+  <TD HEIGHT=100 WIDTH=150> <A HREF="sld022.htm">View graphic version</A> </TD>
+</TABLE>
+<BR>
+</P>
+
+ <FONT size=4><STRONG> Notes: </FONT></STRONG>
+  <HR SIZE=3> <P> <UL>
+Each packet in TCP/IP has a field called “Time to live” or TTL. Each time the packet passes across a  hop, this count is decremented by on. If this count reaches zero, the packet is discarded and the sending  host is notified. Normal packets are sent with the TTL set to 255. 
+<BR></UL><UL>
+     The traceroute (UNIX) or tracert (Windows) command sends a packet out with TTL set to 1. Then it sets the count to 2 and sends the packet again. By doing this until a packet reaches its final destination, the traceroute command can determine the path a packet takes through the Internet. 
+</UL><UL>
+     The “best” route through the Internet may change at any instant - even while a traceroute command is running. 
+</UL><UL>
+     Interestingly, traceroute will work to some degree when the destination does not exist. Try 
+</UL><UL>
+     tracert 111.222.333.222 
+</UL><UL>
+     You can experiment with traceroute at 
+</UL><UL>
+     <a href=http://www.cps.msu.edu/cgi-user/crs/scncweb_traceroute>http://www.cps.msu.edu/cgi-user/crs/scncweb_traceroute</a> 
+</UL> </P> 
+
+</Body>
+</HTML>

@@ -1,0 +1,69 @@
+<BODY BGCOLOR="#FFFFFF">
+<HTML>
+<BODY BGCOLOR="#FFFFFF">
+<MAP NAME="map1">
+<AREA SHAPE="RECT" HREF="../../overview/index.htm" COORDS="130,0, 208,24" target="_top">
+<AREA SHAPE="RECT" HREF="../../lectures/index.htm" COORDS="209,0, 289,24" target="_top">
+<AREA SHAPE="RECT" HREF="../../refer/index.htm" COORDS="290,0, 377,24" target="_top">
+<AREA SHAPE="RECT" HREF="../../discuss/index.htm" COORDS="380,0, 465,24" target="_top">
+<AREA SHAPE="RECT" HREF="../../grades/index.htm" COORDS="466,0, 527,24" target="_top">
+<AREA SHAPE="RECT" HREF="../../help/index.htm" COORDS="530,0, 572,24" target="_top">
+</MAP>
+<A HREF="map1.map"><IMG SRC="navcal.gif" ISMAP USEMAP="#map1" WIDTH="640" HEIGHT="32" BORDER="0"></A>   
+<BR>
+<a href=http://www.real.com/>
+<img src=getreal.jpg border=0 align=left></a>
+<img src=inst160.gif align=right>
+Welcome to this on-line lecture.  You can select the segment of
+the lecture and how the lecture is displayed from the options below.
+!IFDEF CDROM
+When playing from local disk - Only the single-frame style
+will work because of relative paths.
+!ENDIF
+!IFDEF WEB
+Viewer and Download
+will only work when the slides are coming from the network.
+!ENDIF
+<UL>
+!FORPART
+<LI> Part P#P <br>
+!IFDEF CDROM
+!IFDEF VIDEO
+<a href=vfN#N.htm> Video </a> <BR>
+!ENDIF
+!ENDIF
+!IFDEF CDROM
+!IFDEF AUDIO
+<a href=afN#N.htm> Audio </a> <BR>
+!ENDIF
+!ENDIF
+!IFDEF WEB
+!IFDEF VIDEO
+<a href=vfN#N.htm> Single Frame Video </a> 
+(<a href=vrN#N.ram>Detached Video</a>) <BR>
+!ENDIF
+!ENDIF
+!IFDEF WEB
+!IFDEF AUDIO
+<a href=afN#N.htm> Single Frame Audio </a> 
+(<a href=arN#N.ram> Detached Audio </a>)
+!ENDIF
+!ENDIF
+!ENDPART
+</UL>
+<p>
+<a href=sld001.htm>The starting slide</a>
+<p>
+<a href=cache.htm>Pre-Cache Slides</a>
+<P>
+This style is an example style for the
+<a href=http://www.egr.msu.edu/user/crs/projects/syncomat/>
+Sync-O-Matic 3000
+</a>
+program.
+This is the style I use for my on-line class
+<a href=http://www.vu.msu.edu/preview/egr124/lectures/index.htm>
+EGR124 - Internet and Technology
+</a>.
+It is named "matson" because the cool GIFs were designed by Bob
+Matson of the MSU Virtual University.

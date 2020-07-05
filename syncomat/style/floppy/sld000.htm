@@ -1,0 +1,59 @@
+# This is a skeleton file  - http://www.egr.msu.edu/~crs/
+<HTML>
+<HEAD>
+<SCRIPT>
+<!-- Here comes some code
+function gotovideo(NNN) {
+!IFDEF CDROM
+  top.window.location = "vf" + NNN + ".htm";
+!ENDIF
+!IFDEF WEB
+  if ( top.window == self.window ) {
+    top.window.location = "vr" + NNN + ".ram";
+  } else {
+    top.window.location = "vf" + NNN + ".htm";
+  }
+!ENDIF
+}
+function gotoaudio(NNN) {
+!IFDEF CDROM
+  top.window.location = "af" + NNN + ".htm";
+!ENDIF
+!IFDEF WEB
+  if ( top.window == self.window ) {
+    top.window.location = "ar" + NNN + ".ram";
+  } else {
+    top.window.location = "af" + NNN + ".htm";
+  }
+!ENDIF
+}
+
+// -->
+</SCRIPT>  
+!HEAD
+<body bgcolor="#FFFFFF">
+<CENTER>
+<IMG src=imgN#N.gif
+     alt="Slide number N#N" border=1 usemap="#Objmap" WIDTH=400 HEIGHT=300>
+<font size=-1>
+<FORM>
+<INPUT TYPE="Button"  Value="First" onClick="window.location='sld001.htm';">
+<INPUT TYPE="Button"  Value="Back" onClick="window.location='sldN-N.htm';">
+<INPUT TYPE="Button"  Value="Next" onClick="window.location='sldN+N.htm';">
+!IFDEF VIDEO
+<INPUT TYPE="Button"  Value="Slide Video" onClick="gotovideo('N#N')">
+!ENDIF
+!IFDEF AUDIO
+<INPUT TYPE="Button"  Value="Slide Audio" onClick="gotoaudio('N#N')">
+!ENDIF
+<INPUT TYPE="Button"  Value="Text" onClick="window.location='tsldN#N.htm';">
+<INPUT TYPE="Button"  Value="Lecture Index"
+      onClick="top.window.location='index.htm';">
+</FORM>
+</font>
+</CENTER>
+<BR>
+!NOTES
+<p>
+!MAP
+</HTML>

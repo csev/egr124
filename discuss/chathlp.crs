@@ -1,0 +1,19 @@
+<!--
+s/@TITLE@/Help Materials/
+s/@THIS@/Chat Room/
+-->
+To enter the chat room, 
+put your first name in the box at the top, then click on "Enter" below.
+Once you are in the chat room, you can type text at the bottom area and press
+enter - all of the folks in the room will see what you type.  Sometimes
+you will be alone in the room.  Don't be shy. 
+<p>
+You can take a look at the 
+<a href=http://egr124.vu.msu.edu/utils/ewgie/docs/index.html>
+documentation</a> for more details.
+<p>
+If you go into the room and someone is there but they don't answer they 
+might have minimized their chat window.  Try the <b> /ring </b> command.  For
+Example, enter <b> /ring DrChuck </b> or <b> /ring Ray </b> 
+- then on their system it will beep 
+and if they are in the room they can bring up Chat and answer.

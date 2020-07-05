@@ -1,0 +1,22 @@
+
+Tips for making a CDROM
+
+DOS:
+
+It seems that perfectly good javascript blows up on Netscape - Use IE4
+
+Make sure to load and save dosrpm files in DOS EDIT to fix newline/binary problem
+
+Make sure to run the multi/dosram.bat file in the multi directory 
+so all the ram files are right.
+
+make sure to check lectures/index.htm
+
+Make sure to get the welc lecture from preview (it is not in cdrom)
+make sure to ruin lectures/welc/dosrpm.bat
+
+Check empty.rpm's that come from the net - they become empty and screw things up
+
+UNIX:
+
+Can do the same thing with "makeram local"

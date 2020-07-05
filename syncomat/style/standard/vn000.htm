@@ -1,0 +1,68 @@
+!IFDEF VIDEO
+<HTML>
+<HEAD>
+<title>Online Lecture </title>
+</HEAD>
+<BODY bgcolor="#EEEEEE">
+<CENTER>
+<OBJECT ID=IEImageWindow
+ CLASSID="clsid:CFCDAA03-8BE4-11cf-B84B-0020AFBBCCFA" WIDTH=160 HEIGHT=120>
+!IFDEF WEB
+ <PARAM NAME="src" VALUE="U#UvrN#N.rpm">
+!ELSE
+ <PARAM NAME="src" VALUE="vrN#N.rpm">
+!ENDIF
+ <param name="controls" value="ImageWindow">
+ <param name="autostart" value="TRUE">
+ <param name="autogourl" value="true">
+ <param name="console" value="SMURFY">
+!IFDEF WEB
+<EMBED SRC=U#UvrN#N.rpm HEIGHT=120 WIDTH=160 controls=ImageWindow
+!ELSE
+<EMBED SRC=vrN#N.rpm HEIGHT=120 WIDTH=160 controls=ImageWindow
+!ENDIF
+        CONSOLE=SMURFY AUTOGOTOURL=TRUE AUTOSTART=TRUE
+        NAME=SyncControlPanel>
+</OBJECT>
+<OBJECT ID=IESyncControlPanel
+ CLASSID="clsid:CFCDAA03-8BE4-11cf-B84B-0020AFBBCCFA" WIDTH=160 HEIGHT=30>
+ <param name="controls" value="ControlPanel">
+ <param name="console" value="SMURFY">
+<EMBED SRC=empty.rpm width=160 height=30 controls=ControlPanel
+        CONSOLE=SMURFY AUTOGOTOURL=TRUE AUTOSTART=TRUE
+        >
+</OBJECT>
+<BR>
+<font size=-1>
+<FORM>
+<SELECT NAME="URL" SIZE=1
+onChange="window.location=this.options[this.selectedIndex].value;this.selectedIndex=0;">
+<Option Value="">Video Index
+!FORSLIDE
+!IFDEF CDROM
+<OPTION Value="vnN#N.htm">T#T
+!ENDIF
+!IFDEF WEB
+<OPTION Value="U#UvnN#N.htm">T#T
+!ENDIF
+!ENDSLIDE
+</SELECT>
+<BR>
+<SELECT NAME="REPOSITION" SIZE=1 onChange="parent.slide.window.location=this.options[this.selectedIndex].value;this.selectedIndex=0;">
+<Option Value="">Slide Index
+!FORSLIDE
+<OPTION Value="sldN#N.htm">T#T
+!ENDSLIDE
+</SELECT>
+<BR>
+<INPUT TYPE="Button"  Value="Thumbnails"
+      onClick="parent.slide.window.location='vthumb.htm';"> <BR>
+<INPUT TYPE="Button"  Value="Problems"
+      onClick="parent.slide.window.location='problems.htm';"> <BR>
+<BR>
+You may have to press <a href=vnN#N.htm>play</a> to start the lecture. <br>
+</FORM>
+</Font>
+</BODY>
+</HTML>
+!ENDIF

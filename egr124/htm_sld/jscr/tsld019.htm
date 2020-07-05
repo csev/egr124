@@ -1,0 +1,56 @@
+
+<HTML>
+
+<HEAD>
+
+<meta name="GENERATOR" content="Microsoft Internet Assistant for PowerPoint 97">
+ <TITLE>PPT Slide</TITLE> 
+</HEAD>
+
+<BODY     >
+
+ <H1>PPT Slide</H1> 
+ <P><UL>
+<H2>function Act(){
+</H2>
+</UL><UL>
+<H2>var Text = document.exampleForm.userText.value;
+</H2>
+</UL><UL>
+<H2>var ind = document.exampleForm.pickList.selectedIndex;
+</H2>
+</UL><UL>
+<H2>if( ind == 0 ) return;
+</H2>
+</UL><UL>
+<H2>else if ( ind == 1 ) showMessageBox( Text );
+</H2>
+</UL><UL>
+<H2>else if ( ind == 2 ) showWindow( Text );
+</H2>
+</UL><UL>
+<H2>else if ( ind == 3 ) showStatusBar( Text );
+</H2>
+</UL><UL>
+<H2>document.exampleForm.pickList.selectedIndex = 0;
+</H2>
+</UL><UL>
+<H2>}</H2>
+</UL></P>
+<P></P> 
+<P>
+<TABLE>
+  <TD HEIGHT=100 WIDTH=100> <A HREF="tsld018.htm">Previous slide</A> </TD>
+  <TD HEIGHT=100 WIDTH=100> <A HREF="tsld020.htm">Next slide</A> </TD>
+  <TD HEIGHT=100 WIDTH=150> <A HREF="tsld001.htm">Back to first slide</A> </TD>
+  <TD HEIGHT=100 WIDTH=150> <A HREF="sld019.htm">View graphic version</A> </TD>
+</TABLE>
+<BR>
+</P>
+
+ <FONT size=4><STRONG> Notes: </FONT></STRONG>
+  <HR SIZE=3> <P> <UL>
+The word “function” at the top of this slide tells the browser that there is a JavaScript function being defined.  The name of the function is “Act()” and the actions it takes are described within the curly braces {}.  This function has two variables, identified by the word “var” and named “Text” and “ind”.  The “Text” variable stores the string of characters entered by the user.  The “ind” variable stores the user’s choice of display type.  The function then determines how the user’s text should be presented based on the user’s selection of display types.  The user has a choice (from a pull down list that appears on the screen) of displaying their text in a message box, another browser window, or in the status bar at the bottom of the browser’s window.  Depending on the user’s choice, the “Act()” function calls another function to display the user’s text.</UL> </P> 
+
+</Body>
+</HTML>

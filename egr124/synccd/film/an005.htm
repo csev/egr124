@@ -1,0 +1,46 @@
+<HTML>
+<HEAD>
+<title>Online Lecture </title>
+</HEAD>
+<BODY bgcolor="#EEEEEE">
+<CENTER>
+<!-- http://support.prognet.com/realforum/0026.html -->
+<IMG SRC=inst160.gif BORDER=0> <BR>
+<EMBED SRC=ar005.rpm width=160 height=30 controls=ControlPanel
+        CONSOLE=SMURFY AUTOGOTOURL=TRUE AUTOSTART=TRUE
+        NAME=SyncControlPanel>
+</OBJECT>
+<BR>
+<font size=-1>
+<FORM>
+<SELECT NAME="URL" SIZE=1
+onChange="play(this.options[this.selectedIndex].value);this.selectedIndex=0;">
+<Option Value="">Audio Index
+<OPTION Value="vr001.rpm">A Short Internet Film
+<OPTION Value="vr002.rpm">A New Form of Lecture Delivery
+<OPTION Value="vr003.rpm">The “Overhead”
+<OPTION Value="vr004.rpm">How does it Work?
+<OPTION Value="vr005.rpm">On the Internet
+<OPTION Value="vr006.rpm">Conclusion
+</SELECT>
+<BR>
+<SELECT NAME="REPOSITION" SIZE=1 onChange="parent.slide.window.location=this.options[this.selectedIndex].value;this.selectedIndex=0;">
+<Option Value="">Slide Index
+<OPTION Value="sld001.htm">A Short Internet Film
+<OPTION Value="sld002.htm">A New Form of Lecture Delivery
+<OPTION Value="sld003.htm">The “Overhead”
+<OPTION Value="sld004.htm">How does it Work?
+<OPTION Value="sld005.htm">On the Internet
+<OPTION Value="sld006.htm">Conclusion
+</SELECT>
+<BR>
+<INPUT TYPE="Button"  Value="Thumbnails"
+      onClick="parent.slide.window.location='athumb.htm';"> <BR>
+<INPUT TYPE="Button"  Value="Problems"
+      onClick="parent.slide.window.location='problems.htm';"> <BR>
+<BR>
+You may have to press <a href=an005.htm>play</a> to start the lecture. <br>
+</FORM>
+</Font>
+</BODY>
+</HTML>

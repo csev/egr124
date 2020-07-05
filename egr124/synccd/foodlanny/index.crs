@@ -1,0 +1,17 @@
+<!--
+s/@TITLE@/Food/
+s/@THIS@/Lecture/
+-->
+<a href=http://www.real.com/>
+<img src=getreal.jpg border=0 align=left></a>
+<img src=inst160.gif align=right>
+When playing from local disk - Only the single-frame style
+will work because of relative paths.
+<UL>
+<LI> Part 1 <br>
+<a href=vf001.htm> Video </a> <BR>
+</UL>
+<p>
+<a href=sld001.htm>The starting slide</a>
+<p>
+<a href=cache.htm>Pre-Cache Slides</a>

@@ -1,0 +1,21 @@
+<!--
+s/@TITLE@/Technical Overview of TCP-IP/
+s/@THIS@/TCP-IP/
+-->
+<img src=getreal.jpg align=right
+   alt="RealAudio and RealVideo Enabled!"
+   height=50 width=102 hspace=5 border=0>
+</a>      
+This lecture is the most technical lecture for this course.  It summarizes
+some of the technical details of TCP/IP.  While you won't be 
+a certified network administrator after this lecture I hope that you will be 
+better prepared to talk to one.
+<ul>
+<p>
+<LI> Part 1 
+<a href=tcp1vf.htm>Video</a> 
+<LI> Part 2 
+<a href=tcp2vf.htm>Video</a> 
+<LI> Part 3 
+<a href=tcp3vf.htm>Video</a> 
+</body>

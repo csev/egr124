@@ -1,0 +1,141 @@
+
+<HTML>
+
+<HEAD>
+<META HTTP-EQUIV="Context-Type" CONTEXT="text/html;charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft Internet Assistant for PowerPoint 97">
+ <TITLE>PPT Slide</TITLE> 
+</HEAD>
+
+<BODY     >
+
+ <H1>PPT Slide</H1> 
+ <P><UL>
+Domain Name Resolution<BR></UL></P>
+<P><UL>
+edu<BR></UL></P>
+<P><UL>
+com<BR></UL></P>
+<P><UL>
+net<BR></UL></P>
+<P><UL>
+org<BR></UL></P>
+<P><UL>
+us<BR></UL></P>
+<P><UL>
+uk<BR></UL></P>
+<P><UL>
+ch<BR></UL></P>
+<P><UL>
+msu<BR></UL></P>
+<P><UL>
+stanford<BR></UL></P>
+<P><UL>
+egr<BR></UL></P>
+<P><UL>
+pa<BR></UL></P>
+<P><UL>
+mi<BR></UL></P>
+<P><UL>
+ietf<BR></UL></P>
+<P><UL>
+www
+<BR></UL><UL>
+scully
+</UL><UL>
+mulder
+</UL><UL>
+sherwood</UL></P>
+<P><UL>
+merit<BR></UL></P>
+<P><UL>
+www
+<BR></UL><UL>
+spudly</UL></P>
+<P><UL>
+k12<BR></UL></P>
+<P><UL>
+holt<BR></UL></P>
+<P><UL>
+www
+<BR></UL><UL>
+scnc</UL></P>
+<P><UL>
+www
+<BR></UL><UL>
+bobs
+</UL><UL>
+dave1
+</UL><UL>
+dave2</UL></P>
+<P><UL>
+www
+<BR></UL><UL>
+pilot
+</UL><UL>
+gopher
+</UL><UL>
+scully</UL></P>
+<P><UL>
+http://www.holt.k12.mi.us<BR></UL></P>
+<P><UL>
+35.8.2.41<BR></UL></P>
+<P><UL>
+35.9.37.10<BR></UL></P>
+<P><UL>
+192.33.4.12<BR></UL></P>
+<P><UL>
+198.41.0.5<BR></UL></P>
+<P><UL>
+scully.msu.edu<BR></UL></P>
+<P><UL>
+(1)<BR></UL></P>
+<P><UL>
+(2)<BR></UL></P>
+<P><UL>
+(3)<BR></UL></P>
+<P><UL>
+(4)<BR></UL></P>
+<P><UL>
+(5)<BR></UL></P>
+<P><UL>
+(6)<BR></UL></P>
+<P><UL>
+(7)<BR></UL></P>
+<P><UL>
+(8)<BR></UL></P>
+<P><UL>
+204.38.68.2<BR></UL></P>
+<P><UL>
+(9)<BR></UL></P>
+<P></P> 
+<P>
+<TABLE>
+  <TD HEIGHT=100 WIDTH=100> <A HREF="tsld034.htm">Previous slide</A> </TD>
+  <TD HEIGHT=100 WIDTH=100> <A HREF="tsld036.htm">Next slide</A> </TD>
+  <TD HEIGHT=100 WIDTH=150> <A HREF="tsld001.htm">Back to first slide</A> </TD>
+  <TD HEIGHT=100 WIDTH=150> <A HREF="sld035.htm">View graphic version</A> </TD>
+</TABLE>
+<BR>
+</P>
+
+ <FONT size=4><STRONG> Notes: </FONT></STRONG>
+  <HR SIZE=3> <P> <UL>
+Each system which uses the Domain Name System consults a pre-configured Domain Name Server to “revolve” its domain name addresses into IP addresses.  For most dial-up connections, the Domain Name Server is set automatically.  To tace a request, assume that a user on scully.msu.edu connects to www.holt.k12.mi.us (rewmember that the http:// indicates how to connect and the www.holt.k12.mi.us indicates where to connect)
+<BR></UL><UL>
+(1) Scully consults its configured domain name server (35.9.37.10). The domain name server for egr.msu.edu checks its local  table 
+</UL><UL>
+(2) and does not find www.holt.k12.mi.us - it has a list of the top-level domain name servers, so it contacts the top-level domain name server for .us 
+</UL><UL>
+(3).  The .us server returns the address of mi.us to the egr server which then contacts the mi.us server 
+</UL><UL>
+(4).  The mi.us server returns the address of the k12.mi.us server 
+</UL><UL>
+(5).  This continues until the domain name server for holt.k12.mi.us consults it table 
+</UL><UL>
+(6) to find the actual IP address of www.holt.k12.mi.us and returns it to the egr server (7).  
+</UL><UL>
+Finally (8) the egr server returns the IP address to scully.msu.edu which then makes a direct IP connection (9) to the www.holt.k12.mi.us using its IP address (204.38.68.2).</UL> </P> 
+
+</Body>
+</HTML>

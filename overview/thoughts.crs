@@ -1,0 +1,45 @@
+<!--
+s/@TITLE@/Infrequently Asked Questions (IAQ)/
+s/@THIS@/Deep Thoughts/
+-->
+This page contains random notes regarding the class as well as some questions
+and answers.
+<ul>
+<li>Why are the pictures so small? <br>
+Because I sized everything for 640x480 and you have a 17" monitor running at
+1024x768 - If I trade you for my home computer monitor, things will 
+look better on your new monitor. :)
+<li>Why are the pictures so big? <br>
+Because you have a 17" monitor and left your resoultion at 640x480 
+<li>Why are the pictures black and white and I don't even see the whole
+picture on my screen? <br>
+Because you have a 128K Mac-I with a 9" monitor.  Sorry I can't help you - 
+you got bigger problems than having to scroll around to see the slides!
+<li>Why are pictures just the right size? <br>
+Because you have the same equipment as I have!
+<li>What do you use to make these pages? <br>
+Graphics and lectures were done in Powerpoint (If it can't be done in 
+PowerPoint, don't do it).  I manipulate GIFs using LviewPro.  The 
+swishing dots were made using Microsoft Paint Program spray tool and stuck
+into the Powerpoint Background.  I wrote a gadget called "slideconvert"
+in Microsoft Visual C++ to post-process the Internet Assistant for PowerPoint
+to make my nifty-looking lecture bar because the style of
+PowerPoint Internet Assistant is REALLY poor.  
+(Even PowerPoint-97 is way-weak in this area) I wrote the HTML pages using
+a highly-sophisticated, user friendly WYTWYG (What You Type is What You Get),
+HTML editor called "vi".
+<li>Why are there silly things like this page in these pages? <br>
+Because sometimes I was working late at night or on a weekend and just had 
+too much coffee.  Also, I kept playing the same jazz album, "Danger Zone"
+by a good friend of mine - Billy Price who happens to also work at the Software
+Engineering Institute at Carnegie-Melon University.  Sometimes I would 
+just get to jammin' at the keyboard and something silly would come out.  
+(For example, this page was typed during Cut-12 "Shake, Rattle and Roll").
+</ul>
+I guess that about covers it for now.  Any thing I missed?
+<address>
+<a href=/~crs/> /Dr. Chuck </a>
+- Sat May  3 14:39:33 EDT 1997
+and
+- Tue Jan 13 22:47:53 EST 1998
+</address>

@@ -1,0 +1,23 @@
+<LI> Part P#P <br>
+!IFDEF CDROM
+!IFDEF VIDEO
+<a href=vfN#N.htm> Video </a> <BR>
+!ENDIF
+!ENDIF
+!IFDEF CDROM
+!IFDEF AUDIO
+<a href=afN#N.htm> Audio </a> <BR>
+!ENDIF
+!ENDIF
+!IFDEF WEB
+!IFDEF VIDEO
+<a href=vfN#N.htm> Single Frame Video </a> 
+(<a href=vrN#N.ram>Detached Video</a>) <BR>
+!ENDIF
+!ENDIF
+!IFDEF WEB
+!IFDEF AUDIO
+<a href=afN#N.htm> Single Frame Audio </a> 
+(<a href=arN#N.ram> Detached Audio </a>)
+!ENDIF
+!ENDIF

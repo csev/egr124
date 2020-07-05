@@ -1,0 +1,95 @@
+<HTML>
+<HEAD>
+<title>Online Lecture </title>
+<SCRIPT>
+<!-- Here comes some code
+function play(clip) {
+ if ( navigator.appName == "Netscape" ) {
+   document.SyncControlPanel.DoStop();
+   document.SyncControlPanel.SetSource(clip);
+   document.SyncControlPanel.DoPlayPause();
+ }else{
+   IESyncControlPanel.DoStop();
+   IESyncControlPanel.Source = clip;
+   IESyncControlPanel.DoPlayPause();
+} return (false); }
+// -->
+</SCRIPT> 
+</HEAD>
+<BODY bgcolor="#EEEEEE">
+<CENTER>
+<!-- http://support.prognet.com/realforum/0026.html -->
+<OBJECT ID=IEImageWindow
+ CLASSID="clsid:CFCDAA03-8BE4-11cf-B84B-0020AFBBCCFA" WIDTH=160 HEIGHT=120>
+ <PARAM NAME="src" VALUE="empty.rpm">
+ <param name="controls" value="ImageWindow">
+ <param name="console" value="SMURFY">
+<EMBED SRC=empty.rpm HEIGHT=120 WIDTH=160 controls=ImageWindow
+        CONSOLE=SMURFY>
+</OBJECT>
+<OBJECT ID=IESyncControlPanel
+ CLASSID="clsid:CFCDAA03-8BE4-11cf-B84B-0020AFBBCCFA" WIDTH=160 HEIGHT=30>
+ <PARAM NAME="src" VALUE="vr007.rpm">
+ <param name="controls" value="ControlPanel">
+ <param name="autostart" value="TRUE">
+ <param name="console" value="SMURFY">
+<EMBED SRC=vr007.rpm width=160 height=30 controls=ControlPanel
+        CONSOLE=SMURFY AUTOGOTOURL=TRUE AUTOSTART=TRUE
+        NAME=SyncControlPanel>
+</OBJECT>
+<BR>
+<font size=-1>
+<FORM>
+<SELECT NAME="URL" SIZE=1
+onChange="play(this.options[this.selectedIndex].value);this.selectedIndex=0;">
+<Option Value="">Video Index
+<OPTION Value="vr001.rpm">Site Assessment
+<OPTION Value="vr002.rpm">Site Investigation
+<OPTION Value="vr003.rpm">Site Assessment
+<OPTION Value="vr004.rpm">Site Assessment
+<OPTION Value="vr005.rpm">Site Assessment
+<OPTION Value="vr006.rpm">To the Air
+<OPTION Value="vr007.rpm">To the Air
+<OPTION Value="vr008.rpm">To the Air
+<OPTION Value="vr009.rpm">To the Air
+<OPTION Value="vr010.rpm">To the Soil
+<OPTION Value="vr011.rpm">To the Soil
+<OPTION Value="vr012.rpm">To the Soil
+<OPTION Value="vr013.rpm">To the Soil
+<OPTION Value="vr014.rpm">To the Water
+<OPTION Value="vr015.rpm">To the Water
+<OPTION Value="vr016.rpm">In Summary
+<OPTION Value="vr017.rpm">Contacts
+</SELECT>
+<BR>
+<SELECT NAME="REPOSITION" SIZE=1 onChange="top.slide.window.location=this.options[this.selectedIndex].value;this.selectedIndex=0;">
+<Option Value="">Slide Index
+<OPTION Value="sld001.htm">Site Assessment
+<OPTION Value="sld002.htm">Site Investigation
+<OPTION Value="sld003.htm">Site Assessment
+<OPTION Value="sld004.htm">Site Assessment
+<OPTION Value="sld005.htm">Site Assessment
+<OPTION Value="sld006.htm">To the Air
+<OPTION Value="sld007.htm">To the Air
+<OPTION Value="sld008.htm">To the Air
+<OPTION Value="sld009.htm">To the Air
+<OPTION Value="sld010.htm">To the Soil
+<OPTION Value="sld011.htm">To the Soil
+<OPTION Value="sld012.htm">To the Soil
+<OPTION Value="sld013.htm">To the Soil
+<OPTION Value="sld014.htm">To the Water
+<OPTION Value="sld015.htm">To the Water
+<OPTION Value="sld016.htm">In Summary
+<OPTION Value="sld017.htm">Contacts
+</SELECT>
+<BR>
+<INPUT TYPE="Button"  Value="Thumbnails"
+      onClick="top.slide.window.location='vthumb.htm';"> <BR>
+<INPUT TYPE="Button"  Value="Lecture Index"
+      onClick="top.window.location='index.htm';"> <BR>
+<BR>
+You may have to press play to start the lecture. <br>
+</FORM>
+</Font>
+</BODY>
+</HTML>

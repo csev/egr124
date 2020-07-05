@@ -1,0 +1,16 @@
+chkVerbose=0
+chkAutoStart=1
+chkStream=0
+TextStream=pnm://egr124.vu.msu.edu/egr124/lectures/food/
+TextLocDir=Text1
+optWeb=0
+optCD=1
+TextWebDir=D:\syncomat\syncweb\food\
+chkAuto=1
+TextCopy=D:\syncomat\copy\food\
+TextCDDir=D:\syncomat\synccd\food\
+TextStyle=D:\syncomat\style\matson\
+TextMedia=D:\syncomat\media\food\
+TextPP=D:\syncomat\htm_sld\food\
+TextWebURL=http://www.vu.msu.edu/preview/egr124/lectures/food/
+TextName=food

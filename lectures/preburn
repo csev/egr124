@@ -1,0 +1,5 @@
+#! /bin/csh
+
+cp ../../preview/lectures/index.crs .
+makeind
+echo Make sure to check index.crs closely

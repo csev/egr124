@@ -1,0 +1,31 @@
+#! /bin/csh
+
+sed 's/\.ram/.htm/g' < index.net > index.dos
+echo for dos make sure to have index.dos installed
+
+rm dosrpm.bat
+echo copy index.dos index.htm > dosrpm.bat
+
+foreach i ( *.ra ) 
+  set j=`basename $i .ra`
+  sed "s/SUBST/$j/" < makeram.ska > $j.crs
+  if ( "$1" != "" ) then
+    echo file:$i > $j.rpm
+  else
+    echo 'http://www.vu.msu.edu/preview/egr124/lectures/welc/'$i > $j.rpm
+    /bin/cp $j.rpm $j.ram
+    echo echo file:$i \> $j.rpm >> dosrpm.bat
+  endif
+end
+
+foreach i ( *.rm ) 
+  set j=`basename $i .rm`
+  sed "s/SUBST/$j/" < makeram.skm > $j.crs
+  if ( "$1" != "" ) then
+    echo file:$i > $j.rpm
+  else
+    echo 'http://www.vu.msu.edu/preview/egr124/lectures/welc/'$i > $j.rpm
+    /bin/cp $j.rpm $j.ram
+    echo echo file:$i \> $j.rpm >> dosrpm.bat
+  endif
+end

@@ -1,0 +1,11 @@
+<BR> Part P#P:
+!IFDEF AUDIO
+<a href=N*NP#P.ra>
+<BR>Off-Line Play Audio
+</a>
+!ENDIF
+!IFDEF VIDEO
+<a href=N*NP#P.rm>
+<BR>Off-Line Play Video
+</a>
+!ENDIF

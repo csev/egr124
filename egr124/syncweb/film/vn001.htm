@@ -1,0 +1,59 @@
+<HTML>
+<HEAD>
+<title>Online Lecture </title>
+</HEAD>
+<BODY bgcolor="#EEEEEE">
+<CENTER>
+<OBJECT ID=IEImageWindow
+ CLASSID="clsid:CFCDAA03-8BE4-11cf-B84B-0020AFBBCCFA" WIDTH=160 HEIGHT=120>
+ <PARAM NAME="src" VALUE="http://www.vu.msu.edu/preview/egr124/lectures/film/vr001.rpm">
+ <param name="controls" value="ImageWindow">
+ <param name="autostart" value="TRUE">
+ <param name="autogourl" value="true">
+ <param name="console" value="SMURFY">
+<EMBED SRC=http://www.vu.msu.edu/preview/egr124/lectures/film/vr001.rpm HEIGHT=120 WIDTH=160 controls=ImageWindow
+        CONSOLE=SMURFY AUTOGOTOURL=TRUE AUTOSTART=TRUE
+        NAME=SyncControlPanel>
+</OBJECT>
+<OBJECT ID=IESyncControlPanel
+ CLASSID="clsid:CFCDAA03-8BE4-11cf-B84B-0020AFBBCCFA" WIDTH=160 HEIGHT=30>
+ <param name="controls" value="ControlPanel">
+ <param name="console" value="SMURFY">
+<EMBED SRC=empty.rpm width=160 height=30 controls=ControlPanel
+        CONSOLE=SMURFY AUTOGOTOURL=TRUE AUTOSTART=TRUE
+        >
+</OBJECT>
+<BR>
+<font size=-1>
+<FORM>
+<SELECT NAME="URL" SIZE=1
+onChange="window.location=this.options[this.selectedIndex].value;this.selectedIndex=0;">
+<Option Value="">Video Index
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/film/vn001.htm">A Short Internet Film
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/film/vn002.htm">A New Form of Lecture Delivery
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/film/vn003.htm">The “Overhead”
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/film/vn004.htm">How does it Work?
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/film/vn005.htm">On the Internet
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/film/vn006.htm">Conclusion
+</SELECT>
+<BR>
+<SELECT NAME="REPOSITION" SIZE=1 onChange="parent.slide.window.location=this.options[this.selectedIndex].value;this.selectedIndex=0;">
+<Option Value="">Slide Index
+<OPTION Value="sld001.htm">A Short Internet Film
+<OPTION Value="sld002.htm">A New Form of Lecture Delivery
+<OPTION Value="sld003.htm">The “Overhead”
+<OPTION Value="sld004.htm">How does it Work?
+<OPTION Value="sld005.htm">On the Internet
+<OPTION Value="sld006.htm">Conclusion
+</SELECT>
+<BR>
+<INPUT TYPE="Button"  Value="Thumbnails"
+      onClick="parent.slide.window.location='vthumb.htm';"> <BR>
+<INPUT TYPE="Button"  Value="Problems"
+      onClick="parent.slide.window.location='problems.htm';"> <BR>
+<BR>
+You may have to press <a href=vn001.htm>play</a> to start the lecture. <br>
+</FORM>
+</Font>
+</BODY>
+</HTML>

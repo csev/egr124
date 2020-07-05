@@ -1,0 +1,51 @@
+<!--
+s/@TITLE@/Basic Internet Tools/
+s/@THIS@/EGR124/
+--> 
+<a href=http://www.real.com/>
+<img src=getreal.jpg border=0 align=left></a>
+This lecture will cover the use of masic Internet tools, including telnet, 
+E-Mail, browsers, and FTP.
+<UL>
+<LI> Part1
+<a href=bas1vf.htm>Video </a>
+<li>Interview: 
+Tom Davis of Michigan State University
+- <a href=../../multi/davis.ram>Video</a> - <a href=../../multi/davisa.ram>Audio</a>
+<p>
+<LI> Part2
+<a href=bas2vf.htm>Video </a>
+<li>Interview: 
+Dave Lebow of Apex Technologies in Switzerland
+- <a href=../../multi/lebow.ram>Video</a> <a href=../../multi/lebowa.ram>Audio</a>
+<p>
+<LI> Part3
+<a href=bas3vf.htm>Video </a>
+<li>Interview: 
+Dave Farley Cartoonist for 
+<a href=http://sunsite.unc.edu/Dave/Dr-Fun/latest.jpg>
+Dr. Fun
+</a>
+- <a href=../../multi/farley.ram>Video</a> <a href=../../multi/farleya.ram>Audio</a>
+<p>
+<LI> Part4
+<a href=bas4vf.htm>Video </a>
+</UL>
+<p>
+By the way - this stuff is totally way-copyrighted forever and ever by 
+Michigan State University and 
+me, 
+<a href=http://www.egr.msu.edu/~crs> Dr. Chuck </a> and
+portions might even belong to other folks. You are welcome to look
+at them or point to my CPS291 stuff as long as you 
+acknowlege where it came from.  You 
+can download the material for the purpose of off-line viewing but not for
+re-publishing in any form.
+<hr>
+Recent Visitors:
+<pre>
+<!--#exec cmd="/home/cps291/ssi-bin/whohere"-->
+
+Last Modified:
+<!--#echo var="LAST_MODIFIED"--> 
+</pre>

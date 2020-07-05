@@ -1,0 +1,153 @@
+<HTML>
+<HEAD>
+<title>Online Lecture </title>
+<SCRIPT>
+<!-- Here comes some code
+function play(clip) {
+ if ( navigator.appName == "Netscape" ) {
+   document.SyncControlPanel.DoStop();
+   document.SyncControlPanel.SetSource(clip);
+   document.SyncControlPanel.DoPlayPause();
+ }else{
+   IESyncControlPanel.DoStop();
+   IESyncControlPanel.Source = clip;
+   IESyncControlPanel.DoPlayPause();
+} return (false); }
+// -->
+</SCRIPT> 
+</HEAD>
+<BODY bgcolor="#EEEEEE">
+<CENTER>
+<!-- http://support.prognet.com/realforum/0026.html -->
+<OBJECT ID=IEImageWindow
+ CLASSID="clsid:CFCDAA03-8BE4-11cf-B84B-0020AFBBCCFA" WIDTH=160 HEIGHT=120>
+ <PARAM NAME="src" VALUE="empty.rpm">
+ <param name="controls" value="ImageWindow">
+ <param name="console" value="SMURFY">
+<EMBED SRC=empty.rpm HEIGHT=120 WIDTH=160 controls=ImageWindow
+        CONSOLE=SMURFY>
+</OBJECT>
+<OBJECT ID=IESyncControlPanel
+ CLASSID="clsid:CFCDAA03-8BE4-11cf-B84B-0020AFBBCCFA" WIDTH=160 HEIGHT=30>
+ <PARAM NAME="src" VALUE="vr027.rpm">
+ <param name="controls" value="ControlPanel">
+ <param name="autostart" value="TRUE">
+ <param name="console" value="SMURFY">
+<EMBED SRC=vr027.rpm width=160 height=30 controls=ControlPanel
+        CONSOLE=SMURFY AUTOGOTOURL=TRUE AUTOSTART=TRUE
+        NAME=SyncControlPanel>
+</OBJECT>
+<BR>
+<font size=-1>
+<FORM>
+<SELECT NAME="URL" SIZE=1
+onChange="play(this.options[this.selectedIndex].value);this.selectedIndex=0;">
+<Option Value="">Video Index
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr001.rpm">PPT Slide
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr002.rpm">Personal Pages via the Web
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr003.rpm">Definitions
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr004.rpm">HTTP versus HTML
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr005.rpm">HTML = Text plus “Markup”
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr006.rpm">PPT Slide
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr007.rpm">Preparing HTML Documents
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr008.rpm">HTML Layout: Some control, not total
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr009.rpm">Template Tags
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr010.rpm">HTML Tags: Headings
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr011.rpm">HTML Tags: Paragraphs
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr012.rpm">HTML Tags: Lists (Unnumbered)
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr013.rpm">HTML Tags: Lists (Numbered)
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr014.rpm">HTML Tags: Lists (Nested)
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr015.rpm">HTML Tags: Font Styles
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr016.rpm">HTML Tags: Inline Images
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr017.rpm">Image Attributes
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr018.rpm">HTML Tags: Links to Other Documents
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr019.rpm">HTML Tags: Inline Images as Anchors
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr020.rpm">HTML Tags: &#060HR&#062
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr021.rpm">HTML Tags: &#060ADDRESS&#062
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr022.rpm">HTML Tags: &#060mailto:&#062
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr023.rpm">HTML Tags: Comments
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr024.rpm">HTML Tags: Escape Characters
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr025.rpm">Background Colors
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr026.rpm">Background Images
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr027.rpm">Beware of Hideous Backgrounds
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr028.rpm">HTML Tags: &#060TABLE&#062
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr029.rpm">Meta Tags - Redirect
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr030.rpm">More Meta
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr031.rpm">Building an HTML Document
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr032.rpm">HTML Preparation Tips
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr033.rpm">HTML Tips (Cont’d)
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr034.rpm">Image Map Example
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr035.rpm">Design Issues
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr036.rpm">Content vs Glitzy Presentation
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr037.rpm">The Courage to Avoid Glitz
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr038.rpm">Carry a Theme Through Your Pages
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr039.rpm">...Consistent Themes Help Provide Context
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr040.rpm">Style: To Link or Not To Link
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr041.rpm">Style: Label Links Naturally
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr042.rpm">Style: Don’t Force HTML
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr043.rpm">Style: No Dead Ends!
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr044.rpm">Style: Keep Inline Logos Simple
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr045.rpm">Style: Don’t Design for Your Desktop
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/html/vr046.rpm">Style: Be Modem Friendly
+</SELECT>
+<BR>
+<SELECT NAME="REPOSITION" SIZE=1 onChange="top.slide.window.location=this.options[this.selectedIndex].value;this.selectedIndex=0;">
+<Option Value="">Slide Index
+<OPTION Value="sld001.htm">PPT Slide
+<OPTION Value="sld002.htm">Personal Pages via the Web
+<OPTION Value="sld003.htm">Definitions
+<OPTION Value="sld004.htm">HTTP versus HTML
+<OPTION Value="sld005.htm">HTML = Text plus “Markup”
+<OPTION Value="sld006.htm">PPT Slide
+<OPTION Value="sld007.htm">Preparing HTML Documents
+<OPTION Value="sld008.htm">HTML Layout: Some control, not total
+<OPTION Value="sld009.htm">Template Tags
+<OPTION Value="sld010.htm">HTML Tags: Headings
+<OPTION Value="sld011.htm">HTML Tags: Paragraphs
+<OPTION Value="sld012.htm">HTML Tags: Lists (Unnumbered)
+<OPTION Value="sld013.htm">HTML Tags: Lists (Numbered)
+<OPTION Value="sld014.htm">HTML Tags: Lists (Nested)
+<OPTION Value="sld015.htm">HTML Tags: Font Styles
+<OPTION Value="sld016.htm">HTML Tags: Inline Images
+<OPTION Value="sld017.htm">Image Attributes
+<OPTION Value="sld018.htm">HTML Tags: Links to Other Documents
+<OPTION Value="sld019.htm">HTML Tags: Inline Images as Anchors
+<OPTION Value="sld020.htm">HTML Tags: &#060HR&#062
+<OPTION Value="sld021.htm">HTML Tags: &#060ADDRESS&#062
+<OPTION Value="sld022.htm">HTML Tags: &#060mailto:&#062
+<OPTION Value="sld023.htm">HTML Tags: Comments
+<OPTION Value="sld024.htm">HTML Tags: Escape Characters
+<OPTION Value="sld025.htm">Background Colors
+<OPTION Value="sld026.htm">Background Images
+<OPTION Value="sld027.htm">Beware of Hideous Backgrounds
+<OPTION Value="sld028.htm">HTML Tags: &#060TABLE&#062
+<OPTION Value="sld029.htm">Meta Tags - Redirect
+<OPTION Value="sld030.htm">More Meta
+<OPTION Value="sld031.htm">Building an HTML Document
+<OPTION Value="sld032.htm">HTML Preparation Tips
+<OPTION Value="sld033.htm">HTML Tips (Cont’d)
+<OPTION Value="sld034.htm">Image Map Example
+<OPTION Value="sld035.htm">Design Issues
+<OPTION Value="sld036.htm">Content vs Glitzy Presentation
+<OPTION Value="sld037.htm">The Courage to Avoid Glitz
+<OPTION Value="sld038.htm">Carry a Theme Through Your Pages
+<OPTION Value="sld039.htm">...Consistent Themes Help Provide Context
+<OPTION Value="sld040.htm">Style: To Link or Not To Link
+<OPTION Value="sld041.htm">Style: Label Links Naturally
+<OPTION Value="sld042.htm">Style: Don’t Force HTML
+<OPTION Value="sld043.htm">Style: No Dead Ends!
+<OPTION Value="sld044.htm">Style: Keep Inline Logos Simple
+<OPTION Value="sld045.htm">Style: Don’t Design for Your Desktop
+<OPTION Value="sld046.htm">Style: Be Modem Friendly
+</SELECT>
+<BR>
+<INPUT TYPE="Button"  Value="Thumbnails"
+      onClick="top.slide.window.location='vthumb.htm';"> <BR>
+<INPUT TYPE="Button"  Value="Lecture Index"
+      onClick="top.window.location='index.htm';"> <BR>
+<BR>
+You may have to press play to start the lecture. <br>
+</FORM>
+</Font>
+</BODY>
+</HTML>

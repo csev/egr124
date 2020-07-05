@@ -1,0 +1,17 @@
+TextCP=syncomat
+chkVerbose=0
+chkAutoStart=1
+chkStream=1
+TextStream=pnm://egr124.vu.msu.edu/egr124/lectures/dfilm/
+TextLocDir=h:\msu.edu\course\vu\egr124\preview\lectures\dfilm\
+optWeb=1
+optCD=1
+TextWebDir=h:\msu.edu\course\vu\egr124\preview\lectures\dfilm\
+chkAuto=1
+TextCopy=D:\syncomat\copy\film\
+TextCDDir=D:\syncomat\synccd\film\
+TextStyle=D:\syncomat\style\udel\
+TextMedia=D:\syncomat\media\film\
+TextPP=D:\syncomat\htm_sld\film\
+TextWebURL=http://www.vu.msu.edu/preview/egr124/lectures/dfilm/
+TextName=film

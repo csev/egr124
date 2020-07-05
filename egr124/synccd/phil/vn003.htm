@@ -1,0 +1,44 @@
+<HTML>
+<HEAD>
+<title>Online Lecture </title>
+<SCRIPT>
+<!-- Here comes some code
+function gotosld001() { top.slide.window.location="sld001.htm"; }
+function gotojlist() { top.slide.window.location="jlist.htm"; }
+function gototlist() { top.slide.window.location="tlist.htm"; }
+function gotolecture() { top.window.location="index.htm"; }
+// -->
+</SCRIPT> 
+</HEAD>
+<BODY bgcolor="#FFFFFF">
+<CENTER>
+<!-- http://support.prognet.com/realforum/0026.html -->
+<OBJECT ID=IEImageWindow
+ CLASSID="clsid:CFCDAA03-8BE4-11cf-B84B-0020AFBBCCFA" WIDTH=160 HEIGHT=120>
+ <PARAM NAME="src" VALUE="empty.rpm">
+ <param name="controls" value="ImageWindow">
+ <param name="console" value="SMURFY">
+<EMBED SRC=empty.rpm HEIGHT=120 WIDTH=160 controls=ImageWindow
+        CONSOLE=SMURFY>
+</OBJECT>
+<OBJECT ID=IESyncControlPanel
+ CLASSID="clsid:CFCDAA03-8BE4-11cf-B84B-0020AFBBCCFA" WIDTH=160 HEIGHT=30>
+ <PARAM NAME="src" VALUE="vr003.rpm">
+ <param name="controls" value="ControlPanel">
+ <param name="autostart" value="TRUE">
+ <param name="console" value="SMURFY">
+<EMBED SRC=vr003.rpm width=160 height=30 controls=ControlPanel
+        CONSOLE=SMURFY AUTOGOTOURL=TRUE AUTOSTART=TRUE
+        NAME=SyncControlPanel>
+</OBJECT>
+<BR>
+<font size=-1>
+<FORM>
+<INPUT TYPE="Button"  Value="First Slide" onClick="gotosld001()"> <BR>
+<INPUT TYPE="Button"  Value="Media Index" onClick="gotojlist()"> <BR>
+<INPUT TYPE="Button"  Value="Slide Index" onClick="gototlist()"> <BR>
+<INPUT TYPE="Button"  Value="Lecture Index" onClick="gotolecture()"> <BR>
+</FORM> 
+</font>
+</BODY>
+</HTML>

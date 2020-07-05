@@ -1,0 +1,7 @@
+!IFDEF AUDIO
+!IFDEF CDROM
+file:N*NP#P.ra?start="X#X"
+!ELSE
+M#MN*NP#P.ra?start="X#X"
+!ENDIF
+!ENDIF

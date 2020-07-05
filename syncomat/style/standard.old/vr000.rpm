@@ -1,0 +1,7 @@
+!IFDEF VIDEO
+!IFDEF CDROM
+file:N*NP#P.rm?start="X#X"
+!ELSE
+M#MN*NP#P.rm?start="X#X"
+!ENDIF
+!ENDIF

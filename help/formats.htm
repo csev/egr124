@@ -1,0 +1,188 @@
+<HTML>
+<HEAD>
+   <TITLE>EGR124 - Internet and Technology</TITLE>
+<STYLE TYPE="text/css">
+<!--
+A:link, A:visited, A:active {text-decoration: none; font-weight: bold}
+-->
+</STYLE>  
+   
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" ALINK="#0000FF" VLINK="#300E4F">
+
+
+<MAP NAME="map1">
+<AREA SHAPE="RECT" HREF="../overview/index.htm" COORDS="130,0, 208,24">
+<AREA SHAPE="RECT" HREF="../lectures/index.htm" COORDS="209,0, 289,24">
+<AREA SHAPE="RECT" HREF="../refer/index.htm" COORDS="290,0, 377,24">
+<AREA SHAPE="RECT" HREF="../discuss/index.htm" COORDS="380,0, 465,24">
+<AREA SHAPE="RECT" HREF="../grades/index.htm" COORDS="466,0, 527,24">
+<AREA SHAPE="RECT" HREF="../help/index.htm" COORDS="530,0, 572,24">
+</MAP>
+
+<A HREF="map1.map"><IMG SRC="../images/navhelp.gif" ISMAP USEMAP="#map1" WIDTH="640" HEIGHT="32" BORDER="0"></A>
+
+<TABLE BORDER=0 CELLPADDING=3>
+   <TR>
+      <TD VLAIGN=BOTTOM>
+         <P>FORMATS
+      </TD>
+      <TD ALIGN=CENTER VLAIGN=BOTTOM>
+         <P><font size=+2><b>Different Lecture Formats and Delivery<b></font>
+      </TD>
+   <TR>
+      <TD WIDTH="120" ALIGN=CENTER VALIGN=top bgcolor="#999999">
+<FONT FACE="Verdana, Arial, Helvetica" SIZE=1 CLASS=detail><B>
+         <P>
+         <HR>
+         </P>
+<a href=index.htm> Index </a> <BR>
+<a href=helpnet.htm> Network Help </a> <BR>
+<a href=faq.htm> Questions </a> <BR> 
+<a href=test.htm> Software Test </a> <BR>
+<a href=../overview/index.htm> Overview </a> <BR>
+<a href=../overview/whoswho.htm> Who's Who</a> <BR>
+<a href=../overview/prereq.htm> Prerequisites </a> <BR> 
+<a href=../overview/syllabus.htm> Syllabus </a> <BR>
+<a href=../overview/calendar.htm> Calendar </a> <BR>
+<a href=../overview/signup.htm> Signup </a><BR>
+         <P>
+</FONT>
+      </TD>
+
+<TD>
+         <!--  Material Here -->
+<!--
+s/@TITLE@/Different Lecture Formats and Delivery/
+-->
+<p>
+The lectures can in this course can be delivered in one of two different 
+formats and using one of four different types of delivery.  One 
+will work for you depending on your connection speed and screen size.
+If you are having trouble with one format, you might have better luck
+with another format or delivery mechanism.
+First I will discuss the different formats.  
+<p>
+<img src=fmtplug.gif border=0 align=left>
+<h2>Plug-In Format</H2>
+The preferred format uses the
+realplayer plug-in so the entire lecture is displayed on a Netscape screen.
+This allows the user to randomly jump around using the on-screen media index
+quite nicely.  This is also good for small screens such as 640x480. 
+On a larger screen I tend to use this format with a tall narrow 
+viewer so I can se thew notes page at the bottom without
+using up all of my 17" monitor.
+Because
+of the limitations of relative path names on CD-ROM, this is the only format 
+available for CD-ROM version of a lecture.
+<p>
+<img src=fmtview.gif border=0 align=right>
+<h2>Separate Viewer</H2>
+In this format, the Realplayer viewer is executed separately but still controls
+the Netscape browser window advancing the slides where appropriate. This is a nice format if you have a really large screen.  It is nice to have all 
+of the player controls available, and you can set the view to be "auto-sizing" and end up with almost the same look as the plug-in view by
+carefully arranging the windows.
+With this format, the media index is not too useful.  (I could make the 
+media index work but then I would need a separate media index 
+for each format. Whew more software!) 
+For now, the best way to jump around the lecture is 
+to use the slider bar on the player.
+<h2>Delivery Mechanisms</h2>
+There are four different ways that the audio/video can be delivered from 
+this class.  Each has advantages and disadvantages.  I will cover each in turn.
+<ul>
+<li> <b> CD-ROM or Hard-Disk </b>  - This has the advantage that it is fast and 
+you don't need a network connection to view the lectures.  It requires the use 
+of the plug-in format because of problems with relative path names and separate viewers.  The disadvantage is that I bet you don't have a copy of 
+the lectures on CD-ROM! :(  
+One of these days I <i>will</I> begin the manufacture of the CD-ROM
+version of the course. (When I get caught up with those other things)
+<li> <b> Streaming </b> - This can be used with either the plug-in or separate
+viewer.  Streaming uses a special protocol (pnm:) between your computer and
+and the VU server.  This has a number of advantages:  (1) It alows quick 
+random access, (2) it can sense and adapt to different network conditions, 
+and (3) when things are working well you can use your connection to do other
+work.  Its disadvantage is that it is a special protocol.  If you are behind
+a firewall you might not be able to pass that protocol through the firewall.
+Sometimes when you have a flaky connection it can get confused and spend 
+too much time re-adjusting itself.
+<li> <b> Pseudo-Streaming </b> - This technique does not use its own protocol.
+The data is all retrieved through a standard TCP/IP port 80 connection (http:).
+If you can surf the web, then this will often pass through a firewall.  Some
+configuration may be required on the separate viewer if you have a firewall.  This approach does not adapt to different network conditions.  Once the lecture
+is started, the player tries to download the entire lecture to disk as fast 
+as it can.  Once it has a few seconds ahead it starts playing the video 
+or audio.  As long as the material is downloading faster than it is 
+being played there will be no stpoppages.  If the download is too slow the 
+play will catch up and pause while it downloads some more.  If you 
+jump ahead you will cause a very long pause while it downloads all 
+the skipped data.  However when you can jump <i>backwards</i> there will be
+no pasues (because 
+that part is on disk).  If you want to do something else while 
+it is downloading it might be sluggish because pseudo-streaming uses all
+the bandwidth it can until it has all the data on the disk.  The 
+other disadvantage is that you will need sufficient free disk space 
+to store the entire 1-4MB lecture while it is playing.
+If you play RealAudio 3.0 or lower 
+files using this technique across the net, the slide
+flips will NOT work.  RealAudio 5.0  and all versions of video 
+files will flip the slides using the separate viewer.
+At times I have found pseudo-streaming to be more realiable than streaming 
+on a poor network connection.  That is because pseudo-streaming can 
+get "farther ahead" when the network is working OK so it can tolerate longer 
+network "hiccups".
+<li> <b>Download</b> - This format is the absolute most basic format.  
+It downloads the entire 1-4MB lecture to disk before it even starts playing.  
+Then the separate viewer is called to play the file from disk.  
+You can jump around quite nicely using the slider bar because it is all on 
+disk.  This format will work through a firewall.  This format will even
+allow you to view a video (normally 28.8 modem or faster) on a slow modem.
+It will take about 20 minutes to download a 10 minute lecture but once it is 
+downloaded and starts to play, it will play fine and assuming RealAudio 5.0
+or and Video
+media, slides will flip just fine.  It will NOT play at all while downloading.
+You will need to have enough hard disk to store the entire lecture as it
+will be completely stored on disk before the lecture starts.
+This format will be patient and work on almost all but the 
+cruddiest network connections.
+</ul>
+In general, I would try the formats in the order listed.  The plug-in with
+streaming is great with the thumbnails and javascript butons.  However if
+your infrastructure is not up to it, the other formats provide a usable 
+envirnment.
+<p>
+Let me know if you have any questions or comments.
+<address>
+<a href=http://www.egr.msu.edu/~crs/>
+Dr. Chuck
+</a> <br>
+crs@egr.msu.edu
+
+
+         <!--  Material End -->
+         <HR>
+      
+      </TD></TR>
+   <TR>
+      <TD>
+         <P>
+      </TD><TD align=center>
+        <p><FONT SIZE="-1">
+<A HREF="../overview/index.htm">Overview</a> 
+<A HREF="../lectures/index.htm">Lectures</a> 
+<A HREF="../refer/index.htm">Resources</a> 
+<A HREF="../discuss/index.htm">Discussion</a> 
+<A HREF="../grades/index.htm">Grades</a> 
+<A HREF="../help/index.htm">Help</a> 
+		</FONT></p><BR><BR>
+         
+         <P><CENTER><BR>
+         
+         <BR>
+         
+         <FONT SIZE="-2">&copy; Michigan State University</FONT>
+         </CENTER>
+      </TD></TR>
+</TABLE></P>
+</BODY>
+</HTML>

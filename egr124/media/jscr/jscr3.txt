@@ -1,0 +1,7 @@
+u 0:00:00 0:00:22 URL\sld027.htm
+u 0:00:22 0:00:49 URL\sld028.htm
+u 0:00:49 0:01:20 URL\sld029.htm
+u 0:01:20 0:02:01 URL\sld030.htm
+u 0:02:01 0:02:44 URL\sld031.htm
+u 0:02:44 0:04:12 URL\sld032.htm
+u 0:04:12 4:25 URL\sld033.htm

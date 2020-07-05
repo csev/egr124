@@ -1,0 +1,93 @@
+<HTML>
+<HEAD>
+<title>Online Lecture </title>
+<SCRIPT LANGUAGE=JavaScript>
+<!-- Here comes some code
+function play(clip) {
+  document.realPlayer.DoStop();
+  document.realPlayer.SetSource(clip);
+  document.realPlayer.DoPlayPause();
+} 
+// -->
+</SCRIPT> 
+</HEAD>
+<BODY BGCOLOR="#006666" TEXT="#000000">
+<CENTER>
+<TABLE BGCOLOR="#009999" BORDER=0 CELLPADDING=4 CELLSPACING=0>
+<TR><TD ALIGN="CENTER">
+<EMBED
+ SRC="vr002.rpm"
+ NAME="realPlayer"
+ WIDTH=160 HEIGHT=120
+ CONTROLS="ImageWindow"
+ CONSOLE="lecture23"></TD></TR>
+<TR><TD ALIGN="CENTER">
+<FONT FACE="arial, helvetica" SIZE=-2><IMG SRC="video.gif">
+University of Delaware(ITD) style.
+</FONT></TD></TR>
+<TR><TD ALIGN="CENTER">
+<EMBED
+ SRC="empty.rpm"
+ NAME="realPlayer"
+ WIDTH=40 HEIGHT=20
+ CONTROLS="PlayButton"
+ CONSOLE="lecture23">
+<EMBED
+ SRC="empty.rpm"
+ NAME="realPlayer"
+ WIDTH=100 HEIGHT=20
+ CONTROLS="PositionSlider"
+ CONSOLE="lecture23"><BR>
+<EMBED
+ SRC="empty.rpm"
+ NAME="realPlayer"
+ WIDTH=30 HEIGHT=20
+ CONTROLS="StopButton"
+ CONSOLE="lecture23">
+<EMBED
+ SRC="empty.rpm"
+ NAME="realPlayer"
+ WIDTH=100 HEIGHT=20
+ CONTROLS="PositionField"
+ CONSOLE="lecture23">
+</TD></TR></TABLE>
+</CENTER>
+<TABLE CELLPADDING=2 CELLSPACING=1 BORDER=0 WIDTH="100%">
+<TR>
+<TH WIDTH="100%" ALIGN="LEFT" BGCOLOR="#004444">
+<FONT FACE="helvetica" COLOR="#FFFFFF">
+General Controls</TH></TR>
+<TD WIDTH="100%" ALIGN="LEFT" BGCOLOR="#009999">
+  <TABLE BORDER=0 CELLPADDING=1 CELLSPACING=2>
+  <TR><TD><IMG SRC="back.gif" ALT="Lecture Archive"></TD>
+  <TD><FONT FACE="helvetica" SIZE=-2>
+  Go Back to the <A HREF="http://www.udel.edu/UMS/itv/hrim320/" TARGET="_top">Lecture Index.</A></TD></TR>
+  <TR><TD><IMG SRC="back.gif" ALT="Home Space"></TD>
+  <TD><FONT FACE="helvetica" SIZE=-2>
+  Go Back to the <A HREF="http://www.udel.edu/UMS/itv/" TARGET="_top">Home Space.</A></TD></TR>
+</TD></TABLE>
+<FORM>
+<FONT SIZE=-2 FACE="helvetica">
+<SELECT NAME="URL" SIZE=1
+onChange="play(this.options[this.selectedIndex].value);this.selectedIndex=0;">
+<Option Value="">Jump To Slide
+<OPTION Value="vr001.rpm">Paul Allen FoundationOn-Line Course Award
+<OPTION Value="vr002.rpm">Motivation
+<OPTION Value="vr003.rpm">History
+<OPTION Value="vr004.rpm">History
+<OPTION Value="vr005.rpm">History
+<OPTION Value="vr006.rpm">Future at MSU
+<OPTION Value="vr007.rpm">Sync-O-Matic 3000
+<OPTION Value="vr008.rpm">High Points of the Web Page
+<OPTION Value="vr009.rpm">Summary
+<OPTION Value="vr010.rpm">To Do List
+<OPTION Value="vr011.rpm">Thank You
+</SELECT>
+</FONT>
+</FORM>
+</TD></TR>
+</TABLE>
+</BODY>
+</HTML>
+
+

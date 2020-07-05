@@ -1,0 +1,67 @@
+<!--
+s/@TITLE@/The Making of a Web Course/
+s/@THIS@/EGR124/
+--> 
+<a href=http://www.real.com/>
+<img src=getreal.jpg align=left
+   alt="RealAudio and RealVideo Enabled!"
+   height=50 width=102 hspace=5 border=0>
+</a>
+This short (2 minute) film introduces you to the way
+<a href=http://www.vu.msu.edu/preview/egr124/>EGR124 - Internet and
+Technology</a>
+is created.
+You may need to configure some software
+to get things working.  See <a href="../../help/index.htm">help</a>
+for more details.  There are several different lecture formats which
+you can use depending on your screen size and connection.  For a summary
+of the different formats, click <a href="../../help/formats.htm">here</a>.
+<h3>Play Lecture using RealPlayer Plug-In (Preferred)</h3>
+<ul>
+<LI> 
+<a href=film1vf.htm target="_top">Video</a> 
+<LI> 
+<a href=film1af.htm target="_top">Audio</a> 
+</ul>
+<h3>Play Lecture in a Separate RealPlayer Window </h3>
+<ul>
+<li>
+Streaming Protocol (pnm:)
+<a href=film1v.ram target="_top">Video</a> | 
+<a href=film1a.ram target="_top">Audio</a>
+<li>
+Pseudo-Streaming Protocol (http:)
+<a href=film1vp.ram target="_top">Video</a> | 
+<a href=film1ap.ram target="_top">Audio</a>
+<li>
+Download - Then Play (http:)
+<a href=film1.rm target="_top">Video</a> | 
+<a href=film1.ra target="_top">Audio</a>
+</ul>
+<p>
+Thank you for your interest.  I am proud of these
+pages but they can always be improved. Good or bad comments are always
+welcome.
+<p>
+This presentation was prepared using a tool developed at Michigan State
+University called 
+<a href=http://www.egr.msu.edu/~crs/projects/syncomat/>
+Sync-O-Matic-3000
+</a>
+<p>
+<font size=-1>
+By the way - this stuff is totally way-copyrighted forever and ever by 
+Michigan State University and me, 
+<a href=http://www.egr.msu.edu/~crs> Dr. Chuck </a> and
+portions even belong to other folks. You are welcome to look
+at them or point to my EGR124 stuff as long as you 
+acknowlege where it came from.  You 
+can download the material for the purpose of off-line viewing but not for
+re-publishing in any form.   You are also welcome to use this lecture in any way
+as a demonstration of this technology as long as adequate credit is given.
+</font>
+<p>
+<address>
+<a href="http://www.vu.msu.edu/preview/egr124/lectures/film/">
+http://www.vu.msu.edu/preview/egr124/lectures/film/
+</a>

@@ -1,0 +1,38 @@
+<!-
+s/@TITLE@/FeedBack/
+-->
+<form method=POST action="http://web.egr.msu.edu/cgi-bin/htmail.cgi/crs">
+Please enter your E-Mail address and comments below.  They will be sent directly
+to <a href=http://www.egr.msu.edu/~crs/> <b>Charles Severance</b> 
+</a>
+when you click on the "Send Message" button.  A return address is required.
+<hr>
+<center>
+Return E-mail: <input name="from">
+<input name=ccme type=checkbox checked> Send me a copy of this message<br>
+<input type=submit value="Send Message"> <br>
+<textarea name="body" cols=45 rows=20>
+</textarea><p>
+</center>
+</form>
+<hr>HTMaiL v1.3.<br>Report any problems with this
+gateway to <em>
+<a href="http://web.egr.msu.edu/feedback.html">webmaster@egr.msu.edu</em></a>
+<a href="http://web.egr.msu.edu/cgi-bin/htmail.cgi/HELP">Online help</a> is available.
+</BODY>
+</HTML>
+
+<p>
+<center>
+[<a href=../help/index.htm>Help</a>]  
+[<a href="http://www.vu.msu.edu/preview/egr124/">EGR124 Page</a>]
+[<a href=http://www.vu.msu.edu/>Virtual University</a>]
+[<a href=../inst/index.htm>Instructor</a>]
+[<a href=../about/index.htm>About</a>]
+[<a href=../lectures/index.htm>Lectures</a>]
+[<a href=../homework/index.htm>Homework</a>]
+[<a href="http://egr124.vu.msu.edu/cgi-bin/webtalk/system/">Conference</a>]
+[<a href="http://egr124.vu.msu.edu/utils/ewgie/client/">Chat</a>]
+[<a href=../refer/index.htm>Reference</a>]
+[<a href="index.htm"> Feedback</a>]
+</center> 

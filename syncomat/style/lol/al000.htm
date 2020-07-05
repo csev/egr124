@@ -1,0 +1,48 @@
+!IFDEF VIDEO
+<HTML>
+<HEAD>
+<title>Online Lecture </title>
+</HEAD>
+<BODY bgcolor="#FFFFFF">
+<TABLE>
+<TR>
+<TD>
+<a href=http://lecture.lite.msu.edu/~korte/lecture.html target=_top>
+  <img src='leftlogo.gif' BORDER=0></A>
+</TD>
+<TD>
+<a href=arN-N.ram target=_top><img src=prev.gif border=0 alt="Previous Slide"></a>
+<a href=arN#N.ram target=_top><img src=reload.gif border=0 alt="Resynchronize"></a>
+<a href=arN+N.ram target=_top><img src=next.gif border=0 alt="Next Slide"></a>
+</TD>
+<TD>
+<PRE>
+<FORM>
+<SELECT NAME="URL" SIZE=1
+onChange="top.window.location=this.options[this.selectedIndex].value;this.selectedIndex=0;">
+<Option Value="">Video Index
+!FORSLIDE
+!IFDEF CDROM
+<OPTION Value="arN#N.ram">T#T
+!ENDIF
+!IFDEF WEB
+<OPTION Value="U#UarN#N.ram">T#T
+!ENDIF
+!ENDSLIDE
+</SELECT>
+</FORM>
+</PRE>
+</TD>
+<TD>
+<a href=http://lecture.lite.msu.edu/~korte/lecture.html target=_top><img src=info.gif BORDER=0></a>
+<a href=http://lecture.lite.msu.edu/~korte/lecture.html target=_top><img src=feedback.gif BORDER=0></a>
+<a href=http://lecture.lite.msu.edu/~korte/lecture.html target=_top><img src=chat.gif BORDER=0></a>
+<a href=http://lecture.lite.msu.edu/~korte/lecture.html target=_top><img src=group.gif BORDER=0></a>
+<a href=http://lecture.lite.msu.edu/~korte/lecture.html target=_top><img src=help.gif BORDER=0></a>
+
+<a href=index.htm target=_top><img src=logout.gif border=0 alt="Logout"></a>
+</TD>
+</TABLE>
+</BODY>
+</HTML>
+!ENDIF

@@ -1,0 +1,17 @@
+TextCP=egr124
+chkVerbose=0
+chkAutoStart=1
+chkStream=0
+TextStream=pnm://egr124.vu.msu.edu/egr124/lectures/film/
+TextLocDir=D:\egr124\synccd\film\
+optWeb=0
+optCD=1
+TextWebDir=D:\egr124\syncweb\film\
+chkAuto=1
+TextCopy=D:\egr124\copy\film\
+TextCDDir=D:\egr124\synccd\film\
+TextStyle=D:\syncomat\style\standard\
+TextMedia=D:\egr124\media\film\
+TextPP=D:\egr124\htm_sld\film\
+TextWebURL=http://www.vu.msu.edu/preview/egr124/lectures/film/
+TextName=film

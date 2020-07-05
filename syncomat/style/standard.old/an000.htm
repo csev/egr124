@@ -1,0 +1,53 @@
+!IFDEF AUDIO
+<HTML>
+<HEAD>
+<title>Online Lecture </title>
+</HEAD>
+<BODY bgcolor="#EEEEEE">
+<CENTER>
+<!-- http://support.prognet.com/realforum/0026.html -->
+<IMG SRC=inst160.gif BORDER=0> <BR>
+<OBJECT ID=IESyncControlPanel
+ CLASSID="clsid:CFCDAA03-8BE4-11cf-B84B-0020AFBBCCFA" WIDTH=160 HEIGHT=30>
+ <PARAM NAME="src" VALUE="vrN#N.rpm">
+ <param name="controls" value="ControlPanel">
+ <param name="autostart" value="TRUE">
+ <param name="console" value="SMURFY">
+<EMBED SRC=vrN#N.rpm width=160 height=30 controls=ControlPanel
+        CONSOLE=SMURFY AUTOGOTOURL=TRUE AUTOSTART=TRUE
+        NAME=SyncControlPanel>
+</OBJECT>
+<BR>
+<font size=-1>
+<FORM>
+<SELECT NAME="URL" SIZE=1
+onChange="play(this.options[this.selectedIndex].value);this.selectedIndex=0;">
+<Option Value="">Audio Index
+!FORSLIDE
+!IFDEF CDROM
+<OPTION Value="vrN#N.rpm">T#T
+!ENDIF
+!IFDEF WEB
+<OPTION Value="U#UarN#N.rpm">T#T
+!ENDIF
+!ENDSLIDE
+</SELECT>
+<BR>
+<SELECT NAME="REPOSITION" SIZE=1 onChange="parent.slide.window.location=this.options[this.selectedIndex].value;this.selectedIndex=0;">
+<Option Value="">Slide Index
+!FORSLIDE
+<OPTION Value="sldN#N.htm">T#T
+!ENDSLIDE
+</SELECT>
+<BR>
+<INPUT TYPE="Button"  Value="Thumbnails"
+      onClick="parent.slide.window.location='athumb.htm';"> <BR>
+<INPUT TYPE="Button"  Value="Problems"
+      onClick="parent.slide.window.location='problems.htm';"> <BR>
+<BR>
+You may have to press <a href=anN#N.htm>play</a> to start the lecture. <br>
+</FORM>
+</Font>
+</BODY>
+</HTML>
+!ENDIF

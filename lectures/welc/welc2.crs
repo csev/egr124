@@ -1,0 +1,11 @@
+<!--
+s/@TITLE@/Internet and Technology/
+s/@THIS@/WELCOME/
+--> 
+<CENTER>
+<EMBED SRC=empty.rpm HEIGHT=240 WIDTH=360 controls=imagewindow
+        CONSOLE=SMURFY AUTOGOTOURL=TRUE>
+<br>
+<EMBED SRC=welc2.rpm width=160 height=30 controls=ControlPanel
+        CONSOLE=SMURFY AUTOGOTOURL=TRUE AUTOSTART=TRUE>
+</HTML>

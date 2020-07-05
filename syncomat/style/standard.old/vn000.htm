@@ -1,0 +1,45 @@
+!IFDEF VIDEO
+<HTML>
+<HEAD>
+<title>Online Lecture </title>
+</HEAD>
+<BODY bgcolor="#EEEEEE">
+<CENTER>
+<EMBED SRC=U#UvrN#N.rpm HEIGHT=120 WIDTH=160 controls=ImageWindow
+        CONSOLE=BOBBY>
+<EMBED SRC=U#Uempty.rpm width=160 height=30 controls=ControlPanel
+        CONSOLE=BOBBY AUTOGOTOURL=TRUE AUTOSTART=TRUE>
+<BR>
+<font size=-1>
+<FORM>
+<SELECT NAME="URL" SIZE=1
+onChange="window.location=this.options[this.selectedIndex].value;this.selectedIndex=0;">
+<Option Value="">Video Index
+!FORSLIDE
+!IFDEF CDROM
+<OPTION Value="vnN#N.htm">T#T
+!ENDIF
+!IFDEF WEB
+<OPTION Value="U#UvnN#N.htm">T#T
+!ENDIF
+!ENDSLIDE
+</SELECT>
+<BR>
+<SELECT NAME="REPOSITION" SIZE=1 onChange="parent.slide.window.location=this.options[this.selectedIndex].value;this.selectedIndex=0;">
+<Option Value="">Slide Index
+!FORSLIDE
+<OPTION Value="sldN#N.htm">T#T
+!ENDSLIDE
+</SELECT>
+<BR>
+<INPUT TYPE="Button"  Value="Thumbnails"
+      onClick="parent.slide.window.location='vthumb.htm';"> <BR>
+<INPUT TYPE="Button"  Value="Problems"
+      onClick="parent.slide.window.location='problems.htm';"> <BR>
+<BR>
+You may have to press <a href=vnN#N.htm>play</a> to start the lecture. <br>
+</FORM>
+</Font>
+</BODY>
+</HTML>
+!ENDIF

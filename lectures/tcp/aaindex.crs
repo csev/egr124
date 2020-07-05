@@ -1,0 +1,57 @@
+<!--
+s/@TITLE@/Technical Overview of TCP-IP/
+s/@THIS@/TCP-IP/
+-->
+<img src=getreal.jpg align=right
+   alt="RealAudio and RealVideo Enabled!"
+   height=50 width=102 hspace=5 border=0>
+</a>      
+This lecture is the most technical lecture for this course.  It summarizes
+some of the technical details of TCP/IP.  While you won't be 
+For a summary
+of the different formats, click <a href="../../help/formats.htm">here</a>. 
+<UL>
+<LI> Part1 <br>
+<a href=tcp1vf.htm>Video Plug-In</a> <BR>
+<font size=-2>
+(<a href=tcp1v.ram>Streaming Viewer</a> |
+<a href=tcp1vp.ram>Pseudo-Streaming Viewer</a> |
+<a href=tcp1.rm>Download</a>)
+</font> <BR>
+<a href=tcp1af.htm>Audio Plug-In</a> <Br>
+<font size=-2>
+(<a href=tcp1a.ram>Streaming Viewer</a> | 
+<a href=tcp1ap.ram>Pseudo-Streaming Viewer</a> |
+<a href=tcp1.ra>Download</a>)
+</font> <BR>
+<LI> Part2 <br>
+<a href=tcp2vf.htm>Video Plug-In</a> <BR>
+<font size=-2>
+(<a href=tcp2v.ram>Streaming Viewer</a> |
+<a href=tcp2vp.ram>Pseudo-Streaming Viewer</a> |
+<a href=tcp2.rm>Download</a>)
+</font> <BR>
+<a href=tcp2af.htm>Audio Plug-In</a> <Br>
+<font size=-2>
+(<a href=tcp2a.ram>Streaming Viewer</a> | 
+<a href=tcp2ap.ram>Pseudo-Streaming Viewer</a> |
+<a href=tcp2.ra>Download</a>)
+</font> <BR>
+<LI> Part3 <br>
+<a href=tcp3vf.htm>Video Plug-In</a> <BR>
+<font size=-2>
+(<a href=tcp3v.ram>Streaming Viewer</a> |
+<a href=tcp3vp.ram>Pseudo-Streaming Viewer</a> |
+<a href=tcp3.rm>Download</a>)
+</font> <BR>
+<a href=tcp3af.htm>Audio Plug-In</a> <Br>
+<font size=-2>
+(<a href=tcp3a.ram>Streaming Viewer</a> | 
+<a href=tcp3ap.ram>Pseudo-Streaming Viewer</a> |
+<a href=tcp3.ra>Download</a>)
+</font> <BR>
+</UL>
+<p>
+<a href=sld001.htm>The starting slide</a>
+<p>
+<a href=cache.htm>Pre-Cache Slides</a>

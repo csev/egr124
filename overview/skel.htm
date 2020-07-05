@@ -1,0 +1,67 @@
+<HTML>
+<HEAD>
+   <TITLE>@CLASS@</TITLE>
+   
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" ALINK="#0000FF" VLINK="#300E4F">
+
+
+<MAP NAME="map1">
+<AREA SHAPE="RECT" HREF="@ROOT@/overview/index.htm" COORDS="130,0, 208,24">
+<AREA SHAPE="RECT" HREF="@ROOT@/lectures/index.htm" COORDS="209,0, 289,24">
+<AREA SHAPE="RECT" HREF="@ROOT@/refer/index.htm" COORDS="290,0, 377,24">
+<AREA SHAPE="RECT" HREF="@ROOT@/discuss/index.htm" COORDS="380,0, 465,24">
+<AREA SHAPE="RECT" HREF="@ROOT@/grades/index.htm" COORDS="466,0, 527,24">
+<AREA SHAPE="RECT" HREF="@ROOT@/help/index.htm" COORDS="530,0, 572,24">
+</MAP>
+
+<A HREF="map1.map"><IMG SRC="@ROOT@/images/navover.gif" ISMAP USEMAP="#map1" WIDTH="640" HEIGHT="32" BORDER="0"></A>
+
+<TABLE BORDER=0 CELLPADDING=3>
+   <TR>
+      <TD VLAIGN=BOTTOM>
+         <P>@THIS@
+      </TD>
+      <TD VLAIGN=BOTTOM>
+         <P><font size=+2><b>@TITLE@<b></font>
+      </TD>
+   <TR>
+      <TD VALIGN=top bgcolor="@COLOR@">
+         <P>
+         <HR>
+         </P>
+#include "@MENU@"
+         <P>
+
+      </TD>
+
+<TD>
+         <!--  Material Here -->
+#include "@INCLUDE@"
+         <!--  Material End -->
+         <HR>
+      
+      </TD></TR>
+   <TR>
+      <TD>
+         <P>
+      </TD><TD align=center>
+        <p><FONT SIZE="-1">
+<A HREF="@ROOT@/overview/index.htm">Overview</a> 
+<A HREF="@ROOT@/lectures/index.htm">Lectures</a> 
+<A HREF="@ROOT@/refer/index.htm">Resources</a> 
+<A HREF="@ROOT@/discuss/index.htm">Discussion</a> 
+<A HREF="@ROOT@/grades/index.htm">Help</a> 
+<A HREF="@ROOT@/help/index.htm">Help</a> 
+		</FONT></p><BR><BR>
+         
+         <P><CENTER><BR>
+         
+         <BR>
+         
+         <FONT SIZE="-2">&copy; Michigan State University</FONT>
+         </CENTER>
+      </TD></TR>
+</TABLE></P>
+</BODY>
+</HTML>

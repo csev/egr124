@@ -1,0 +1,130 @@
+<HTML>
+<HEAD>
+<title>Online Lecture </title>
+<SCRIPT>
+<!-- Here comes some code
+function play(clip) {
+ if ( navigator.appName == "Netscape" ) {
+   document.SyncControlPanel.DoStop();
+   document.SyncControlPanel.SetSource(clip);
+   document.SyncControlPanel.DoPlayPause();
+ }else{
+   IESyncControlPanel.DoStop();
+   IESyncControlPanel.Source = clip;
+   IESyncControlPanel.DoPlayPause();
+} return (false); }
+// -->
+</SCRIPT> 
+</HEAD>
+<BODY bgcolor="#EEEEEE">
+<CENTER>
+<!-- http://support.prognet.com/realforum/0026.html -->
+<IMG SRC=inst160.gif BORDER=0> <BR>
+<OBJECT ID=IESyncControlPanel
+ CLASSID="clsid:CFCDAA03-8BE4-11cf-B84B-0020AFBBCCFA" WIDTH=160 HEIGHT=30>
+ <PARAM NAME="src" VALUE="vr024.rpm">
+ <param name="controls" value="ControlPanel">
+ <param name="autostart" value="TRUE">
+ <param name="console" value="SMURFY">
+<EMBED SRC=vr024.rpm width=160 height=30 controls=ControlPanel
+        CONSOLE=SMURFY AUTOGOTOURL=TRUE AUTOSTART=TRUE
+        NAME=SyncControlPanel>
+</OBJECT>
+<BR>
+<font size=-1>
+<FORM>
+<SELECT NAME="URL" SIZE=1
+onChange="play(this.options[this.selectedIndex].value);this.selectedIndex=0;">
+<Option Value="">Audio Index
+<OPTION Value="vr001.rpm">Technical Aspects of TCP/IP Networking
+<OPTION Value="vr002.rpm">Network Terminology++
+<OPTION Value="vr003.rpm">The View of the End User
+<OPTION Value="vr004.rpm">View of the Network Administrator
+<OPTION Value="vr005.rpm">TCP/IP Networking Model
+<OPTION Value="vr006.rpm">Network Access Layer
+<OPTION Value="vr007.rpm">Example Physical Layers
+<OPTION Value="vr008.rpm">Example Physical Layers
+<OPTION Value="vr009.rpm">Ethernet/IEEE 802.3
+<OPTION Value="vr010.rpm">Ethernet Wiring Choices
+<OPTION Value="vr011.rpm">Ethernet Hubs
+<OPTION Value="vr012.rpm">Ethernet Bridges
+<OPTION Value="vr013.rpm">Ethernet Switches
+<OPTION Value="vr014.rpm">CSMA/CD - Ethernet Protocol
+<OPTION Value="vr015.rpm">Other Physical Layers
+<OPTION Value="vr016.rpm">Fiber Optic
+<OPTION Value="vr017.rpm">Internetwork Layer (IP)
+<OPTION Value="vr018.rpm">System to System IP
+<OPTION Value="vr019.rpm">IP Addresses
+<OPTION Value="vr020.rpm">IP Addresses and Network Numbers
+<OPTION Value="vr021.rpm">Internet Protocol (IP) Router
+<OPTION Value="vr022.rpm">Simple Router
+<OPTION Value="vr023.rpm">Backbone Router
+<OPTION Value="vr024.rpm">An IP Internetwork
+<OPTION Value="vr025.rpm">Transport Layer (TCP)
+<OPTION Value="vr026.rpm">Application Layer
+<OPTION Value="vr027.rpm">Ports and Applications
+<OPTION Value="vr028.rpm">Application Layer Standards
+<OPTION Value="vr029.rpm">Data Encapsulation
+<OPTION Value="vr030.rpm">Data Encapsulation
+<OPTION Value="vr031.rpm">Data Encapsulation
+<OPTION Value="vr032.rpm">The Domain Name System
+<OPTION Value="vr033.rpm">Domain Name Hierarchy
+<OPTION Value="vr034.rpm">Domain Name Resolution
+<OPTION Value="vr035.rpm">PPT Slide
+<OPTION Value="vr036.rpm">The View From a Client
+<OPTION Value="vr037.rpm">Sample Network - 198.17.21.0
+<OPTION Value="vr038.rpm">Conclusion
+</SELECT>
+<BR>
+<SELECT NAME="REPOSITION" SIZE=1 onChange="top.slide.window.location=this.options[this.selectedIndex].value;this.selectedIndex=0;">
+<Option Value="">Slide Index
+<OPTION Value="sld001.htm">Technical Aspects of TCP/IP Networking
+<OPTION Value="sld002.htm">Network Terminology++
+<OPTION Value="sld003.htm">The View of the End User
+<OPTION Value="sld004.htm">View of the Network Administrator
+<OPTION Value="sld005.htm">TCP/IP Networking Model
+<OPTION Value="sld006.htm">Network Access Layer
+<OPTION Value="sld007.htm">Example Physical Layers
+<OPTION Value="sld008.htm">Example Physical Layers
+<OPTION Value="sld009.htm">Ethernet/IEEE 802.3
+<OPTION Value="sld010.htm">Ethernet Wiring Choices
+<OPTION Value="sld011.htm">Ethernet Hubs
+<OPTION Value="sld012.htm">Ethernet Bridges
+<OPTION Value="sld013.htm">Ethernet Switches
+<OPTION Value="sld014.htm">CSMA/CD - Ethernet Protocol
+<OPTION Value="sld015.htm">Other Physical Layers
+<OPTION Value="sld016.htm">Fiber Optic
+<OPTION Value="sld017.htm">Internetwork Layer (IP)
+<OPTION Value="sld018.htm">System to System IP
+<OPTION Value="sld019.htm">IP Addresses
+<OPTION Value="sld020.htm">IP Addresses and Network Numbers
+<OPTION Value="sld021.htm">Internet Protocol (IP) Router
+<OPTION Value="sld022.htm">Simple Router
+<OPTION Value="sld023.htm">Backbone Router
+<OPTION Value="sld024.htm">An IP Internetwork
+<OPTION Value="sld025.htm">Transport Layer (TCP)
+<OPTION Value="sld026.htm">Application Layer
+<OPTION Value="sld027.htm">Ports and Applications
+<OPTION Value="sld028.htm">Application Layer Standards
+<OPTION Value="sld029.htm">Data Encapsulation
+<OPTION Value="sld030.htm">Data Encapsulation
+<OPTION Value="sld031.htm">Data Encapsulation
+<OPTION Value="sld032.htm">The Domain Name System
+<OPTION Value="sld033.htm">Domain Name Hierarchy
+<OPTION Value="sld034.htm">Domain Name Resolution
+<OPTION Value="sld035.htm">PPT Slide
+<OPTION Value="sld036.htm">The View From a Client
+<OPTION Value="sld037.htm">Sample Network - 198.17.21.0
+<OPTION Value="sld038.htm">Conclusion
+</SELECT>
+<BR>
+<INPUT TYPE="Button"  Value="Thumbnails"
+      onClick="top.slide.window.location='athumb.htm';"> <BR>
+<INPUT TYPE="Button"  Value="Lecture Index"
+      onClick="top.window.location='index.htm';"> <BR>
+<BR>
+You may have to press play to start the lecture. <br>
+</FORM>
+</Font>
+</BODY>
+</HTML>

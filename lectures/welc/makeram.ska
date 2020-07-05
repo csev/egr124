@@ -1,0 +1,8 @@
+<HTML>
+<title>Dr. Chuck's Multimedia Stuff</title>
+<BODY bgcolor="#FFFFFF">
+<CENTER>
+<EMBED SRC=SUBST.rpm width=160 height=30 controls=ControlPanel
+        CONSOLE=SMURFY AUTOGOTOURL=TRUE AUTOSTART=TRUE>
+</HTML>
+<p>

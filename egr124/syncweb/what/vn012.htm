@@ -1,0 +1,131 @@
+<HTML>
+<HEAD>
+<title>Online Lecture </title>
+<SCRIPT>
+<!-- Here comes some code
+function play(clip) {
+ if ( navigator.appName == "Netscape" ) {
+   document.SyncControlPanel.DoStop();
+   document.SyncControlPanel.SetSource(clip);
+   document.SyncControlPanel.DoPlayPause();
+ }else{
+   IESyncControlPanel.DoStop();
+   IESyncControlPanel.Source = clip;
+   IESyncControlPanel.DoPlayPause();
+} return (false); }
+// -->
+</SCRIPT> 
+</HEAD>
+<BODY bgcolor="#EEEEEE">
+<CENTER>
+<!-- http://support.prognet.com/realforum/0026.html -->
+<OBJECT ID=IEImageWindow
+ CLASSID="clsid:CFCDAA03-8BE4-11cf-B84B-0020AFBBCCFA" WIDTH=160 HEIGHT=120>
+ <PARAM NAME="src" VALUE="empty.rpm">
+ <param name="controls" value="ImageWindow">
+ <param name="console" value="SMURFY">
+<EMBED SRC=empty.rpm HEIGHT=120 WIDTH=160 controls=ImageWindow
+        CONSOLE=SMURFY>
+</OBJECT>
+<OBJECT ID=IESyncControlPanel
+ CLASSID="clsid:CFCDAA03-8BE4-11cf-B84B-0020AFBBCCFA" WIDTH=160 HEIGHT=30>
+ <PARAM NAME="src" VALUE="vr012.rpm">
+ <param name="controls" value="ControlPanel">
+ <param name="autostart" value="TRUE">
+ <param name="console" value="SMURFY">
+<EMBED SRC=vr012.rpm width=160 height=30 controls=ControlPanel
+        CONSOLE=SMURFY AUTOGOTOURL=TRUE AUTOSTART=TRUE
+        NAME=SyncControlPanel>
+</OBJECT>
+<BR>
+<font size=-1>
+<FORM>
+<SELECT NAME="URL" SIZE=1
+onChange="play(this.options[this.selectedIndex].value);this.selectedIndex=0;">
+<Option Value="">Video Index
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr001.rpm">What IS the Internet?
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr002.rpm">Internet in 1996
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr003.rpm">Internet as a Media
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr004.rpm">What is it?
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr005.rpm">Things the go “bump” in the Net
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr006.rpm">Connecting to Computers
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr007.rpm">Domain Names for Computers
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr008.rpm">E-Mail - Contacting People
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr009.rpm">URL - All About Data
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr010.rpm">How does the Internet Work?
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr011.rpm">Who is in Charge?
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr012.rpm">Top Level Service Providers
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr013.rpm">Regional Service Providers
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr014.rpm">Michigan State University
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr015.rpm">Local Service Providers
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr016.rpm">International Internet
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr017.rpm">What is a “Packet”?
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr018.rpm">PPT Slide
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr019.rpm">Probing the Internet
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr020.rpm">Magical Cloud
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr021.rpm">Technical Details
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr022.rpm">Exposing Details - Traceroute
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr023.rpm">tracert www.cs.stanford.edu
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr024.rpm">Challenges in the Internet
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr025.rpm">Internet .vs. Telephone
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr026.rpm">Internet .vs. Telephone
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr027.rpm">Internet .vs. Telephone
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr028.rpm">Telephone .vs. Cable
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr029.rpm">Future of Phone and/or Cable?
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr030.rpm">Internet .vs. AOL
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr031.rpm">PPT Slide
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr032.rpm">Internet .vs. AOL
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr033.rpm">Internet .vs. World-Wide-Web
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr034.rpm">Chuck’s Top 6
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/what/vr035.rpm">Summary
+</SELECT>
+<BR>
+<SELECT NAME="REPOSITION" SIZE=1 onChange="top.slide.window.location=this.options[this.selectedIndex].value;this.selectedIndex=0;">
+<Option Value="">Slide Index
+<OPTION Value="sld001.htm">What IS the Internet?
+<OPTION Value="sld002.htm">Internet in 1996
+<OPTION Value="sld003.htm">Internet as a Media
+<OPTION Value="sld004.htm">What is it?
+<OPTION Value="sld005.htm">Things the go “bump” in the Net
+<OPTION Value="sld006.htm">Connecting to Computers
+<OPTION Value="sld007.htm">Domain Names for Computers
+<OPTION Value="sld008.htm">E-Mail - Contacting People
+<OPTION Value="sld009.htm">URL - All About Data
+<OPTION Value="sld010.htm">How does the Internet Work?
+<OPTION Value="sld011.htm">Who is in Charge?
+<OPTION Value="sld012.htm">Top Level Service Providers
+<OPTION Value="sld013.htm">Regional Service Providers
+<OPTION Value="sld014.htm">Michigan State University
+<OPTION Value="sld015.htm">Local Service Providers
+<OPTION Value="sld016.htm">International Internet
+<OPTION Value="sld017.htm">What is a “Packet”?
+<OPTION Value="sld018.htm">PPT Slide
+<OPTION Value="sld019.htm">Probing the Internet
+<OPTION Value="sld020.htm">Magical Cloud
+<OPTION Value="sld021.htm">Technical Details
+<OPTION Value="sld022.htm">Exposing Details - Traceroute
+<OPTION Value="sld023.htm">tracert www.cs.stanford.edu
+<OPTION Value="sld024.htm">Challenges in the Internet
+<OPTION Value="sld025.htm">Internet .vs. Telephone
+<OPTION Value="sld026.htm">Internet .vs. Telephone
+<OPTION Value="sld027.htm">Internet .vs. Telephone
+<OPTION Value="sld028.htm">Telephone .vs. Cable
+<OPTION Value="sld029.htm">Future of Phone and/or Cable?
+<OPTION Value="sld030.htm">Internet .vs. AOL
+<OPTION Value="sld031.htm">PPT Slide
+<OPTION Value="sld032.htm">Internet .vs. AOL
+<OPTION Value="sld033.htm">Internet .vs. World-Wide-Web
+<OPTION Value="sld034.htm">Chuck’s Top 6
+<OPTION Value="sld035.htm">Summary
+</SELECT>
+<BR>
+<INPUT TYPE="Button"  Value="Thumbnails"
+      onClick="top.slide.window.location='vthumb.htm';"> <BR>
+<INPUT TYPE="Button"  Value="Lecture Index"
+      onClick="top.window.location='index.htm';"> <BR>
+<BR>
+You may have to press play to start the lecture. <br>
+</FORM>
+</Font>
+</BODY>
+</HTML>

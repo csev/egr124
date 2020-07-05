@@ -1,0 +1,71 @@
+
+ThumbNailer - copyright 1997, Smaller Animals Software
+v1.3.0.0
+---------------------------- Shareware Alert ! -------------------------------
+
+The trial version of this program has a 30-day trial period. After the 30-days
+is up, an annoyance screen will appear each time the program is launched. This
+program took a lot of effort, I'd appreciate a little cash so that I can buy a
+new desk. Sorry for the annoyance screen.
+
+To register this program and eliminate all of the annoying pop-up screens, you 
+will need $10 US. Send me email and I will tell you what to do.
+
+------------------------------------------------------------------------------
+
+If there are any problems, contact : CHRISDL@PAGESZ.NET
+
+--------------------------- Instructions -------------------------------------
+
+This program may be run normally from Win95/NT by creating a shortcut to it,
+or by running from the Start menu.
+
+This program can be used to convert files from one image format to another, by
+specifiying an otuput size that is larger than the input size. 
+
+------------------------------------------------------------------------------
+
+To run from a DOS prompt in 95/NT :
+
+START /W THUMB [/HIDE] <INDIR> <OUTDIR> <OUT MAX X> <OUT MAX Y> [OUTFILE TYPE]
+
+"START /W" forces the DOS box to wait until ThumbNailer has exited before 
+returning the cursor.
+
+/HIDE forces the app to run silently - no windows are launched.
+Without /HIDE, the app runs as a normal Windows app and all other parameters 
+are ignored.
+
+<INDIR>   specifies directory from which files will be read       ** mandatory
+<OUTDIR>  specifies directory to which files will be written      ** mandatory
+<OUT MAX X, Y>    maximum dimensions of output files.             ** mandatory
+
+<OUTFILE TYPE> is one of :
+    0    output type mathces source type                          ** default
+    1    all files output to 24-bit BMP
+    2    all files output to JPG
+    3    all files output to GIF
+
+Note, there is no DOS output! no errors are reported when launched from a
+DOS prompt!
+
+---------------------------- Tech Credit -------------------------------------
+
+GIF from Programming for Graphics Files    by John Levine
+JPG from IJG 6a
+Quantizer from Dennis Lee's DL1Quant
+
+---------------------------- Legal Stuff -------------------------------------
+
+	Disclaimer :
+
+	I find this software suitable for my own uses. I make no guarantees that
+you will find it suitable for your's. Use at your own risk!
+
+	Copyright :
+
+	This software is Copyright 1997, Smaller Animals Software, written by 
+Chris Losinger. The software may not be altered in any way. It is 
+hoped that non-disabled versions (that is, versions for which people have
+paid) will not be freely-distributed. Trial versions may be freely 
+distributed.

@@ -1,0 +1,69 @@
+<BODY BGCOLOR="#FFFFFF">
+<HTML>
+<BODY BGCOLOR="#FFFFFF">
+<a href=http://www.real.com/products/player/index.html>
+<img src=freeplayer_g2.gif border=0 align=left>
+</a>
+<img src=inst160.gif align=right>
+Welcome to this on-line lecture.  You can select the segment of
+the lecture and how the lecture is displayed from the options below.
+!IFDEF CDROM
+When playing from local disk - Only the single-frame style
+will work because of relative paths.
+!ENDIF
+!IFDEF WEB
+Viewer and Download
+will only work when the slides are coming from the network.
+!ENDIF
+<UL>
+!FORPART
+<LI> Part P#P <br>
+!IFDEF CDROM
+!IFDEF VIDEO
+<a href=vfN#N.htm> Video </a> <BR>
+!ENDIF
+!ENDIF
+!IFDEF CDROM
+!IFDEF AUDIO
+<a href=afN#N.htm> Audio </a> <BR>
+!ENDIF
+!ENDIF
+!IFDEF WEB
+!IFDEF VIDEO
+<a href=vfN#N.htm> Single Frame Video </a> 
+(<a href=vrN#N.ram>Detached Video</a>) <BR>
+!ENDIF
+!ENDIF
+!IFDEF WEB
+!IFDEF AUDIO
+<a href=afN#N.htm> Single Frame Audio </a> 
+(<a href=arN#N.ram> Detached Audio </a>)
+!ENDIF
+!ENDIF
+!ENDPART
+</UL>
+<p>
+<a href=sld001.htm>The starting slide</a>
+<p>
+<a href=cache.htm>Pre-Cache Slides</a>
+<P>
+This style is the standard style for the
+<a href=http://www.egr.msu.edu/user/crs/projects/syncomat/>
+Sync-O-Matic 3000
+</a>
+program.
+It makes good use of the Javascript capabilities of Sync-O-Matic.
+If browsers fail with this
+style, then you should try the simpler style.
+<p>
+It is intended that you edit this index.htm file
+and add your own picture, etc - You may also not want
+to give all of the above options to the user.
+<p>
+!IFDEF AUDIO
+The file inst160.gif in this directory is used to show the instructor picture for
+audio-only versions of the lecture.  You can replace this picture for all lectures using
+the standard style by replacing \syncomat\style\standard\copy\inst160.htm on the 
+machine that produces these lectures.
+!ENDIF
+</BODY>

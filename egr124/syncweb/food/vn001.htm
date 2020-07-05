@@ -1,0 +1,40 @@
+<HTML>
+<HEAD>
+<title>Online Lecture </title>
+</HEAD>
+<BODY bgcolor="#EEEEEE">
+<CENTER>
+<EMBED SRC=http://www.vu.msu.edu/preview/egr124/lectures/food/vr001.rpm HEIGHT=120 WIDTH=160 controls=ImageWindow
+        CONSOLE=BOBBY>
+<EMBED SRC=http://www.vu.msu.edu/preview/egr124/lectures/food/empty.rpm width=160 height=30 controls=ControlPanel
+        CONSOLE=BOBBY AUTOGOTOURL=TRUE AUTOSTART=TRUE>
+<BR>
+<font size=-1>
+<FORM>
+<SELECT NAME="URL" SIZE=1
+onChange="window.location=this.options[this.selectedIndex].value;this.selectedIndex=0;">
+<Option Value="">Video Index
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/food/vn001.htm">Food
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/food/vn002.htm">Why Food?
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/food/vn003.htm">Food Choices
+<OPTION Value="http://www.vu.msu.edu/preview/egr124/lectures/food/vn004.htm">Conclusion
+</SELECT>
+<BR>
+<SELECT NAME="REPOSITION" SIZE=1 onChange="parent.slide.window.location=this.options[this.selectedIndex].value;this.selectedIndex=0;">
+<Option Value="">Slide Index
+<OPTION Value="sld001.htm">Food
+<OPTION Value="sld002.htm">Why Food?
+<OPTION Value="sld003.htm">Food Choices
+<OPTION Value="sld004.htm">Conclusion
+</SELECT>
+<BR>
+<INPUT TYPE="Button"  Value="Thumbnails"
+      onClick="parent.slide.window.location='vthumb.htm';"> <BR>
+<INPUT TYPE="Button"  Value="Problems"
+      onClick="parent.slide.window.location='problems.htm';"> <BR>
+<BR>
+You may have to press <a href=vn001.htm>play</a> to start the lecture. <br>
+</FORM>
+</Font>
+</BODY>
+</HTML>

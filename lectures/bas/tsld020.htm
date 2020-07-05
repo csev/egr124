@@ -1,0 +1,81 @@
+
+<HTML>
+
+<HEAD>
+<META HTTP-EQUIV="Context-Type" CONTEXT="text/html;charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft Internet Assistant for PowerPoint 97">
+ <TITLE>FTP to Pilot Space</TITLE> 
+</HEAD>
+
+<BODY     >
+
+ <H1>FTP to Pilot Space</H1> 
+ <P><UL>
+C:\CLASS &#062  ftp pilot.msu.edu 
+<BR></UL><UL>
+Connected to pilot.cl.msu.edu.
+</UL><UL>
+220 pilot.msu.edu FTP server (Version wu-2.1c(17) Fri Jan 21)
+</UL><UL>
+Name (pilot:sparty):  sparty 
+</UL><UL>
+331 Password required for sparty.
+</UL><UL>
+Password:  [Type in your password.  It will not be displayed.] 
+</UL><UL>
+230 User sparty logged in.
+</UL><UL>
+ftp&#062  cd web
+</UL><UL>
+ftp&#062  put index.htm 
+</UL><UL>
+200 PORT command successful.
+</UL><UL>
+150 Opening ASCII mode for index.htm (9286 bytes).
+</UL><UL>
+226 Transfer complete.
+</UL><UL>
+9286 bytes transferred in 0.0724 seconds (133.9 Kbytes/s)
+</UL><UL>
+ftp&#062  quit 
+</UL><UL>
+221 Goodbye.</UL></P>
+<P></P> 
+<P>
+<TABLE>
+  <TD HEIGHT=100 WIDTH=100> <A HREF="tsld019.htm">Previous slide</A> </TD>
+  <TD HEIGHT=100 WIDTH=100> <A HREF="tsld021.htm">Next slide</A> </TD>
+  <TD HEIGHT=100 WIDTH=150> <A HREF="tsld001.htm">Back to first slide</A> </TD>
+  <TD HEIGHT=100 WIDTH=150> <A HREF="sld020.htm">View graphic version</A> </TD>
+</TABLE>
+<BR>
+</P>
+
+ <FONT size=4><STRONG> Notes: </FONT></STRONG>
+  <HR SIZE=3> <P> <UL>
+
+<BR></UL><UL>
+It is important to be in the proper “local” directory and the proper “remote” directory “remote” directory before you transfer the files.  For example, lets say you saved a picture to “me.gif” in the \temp\photos directory on your hard disk and you wanted to upload it to your main web space in the web subdirectory of your home directory on the server.  It would work something like this:
+</UL><UL>
+
+</UL><UL>
+ftp pilot.msu.edu
+</UL><UL>
+(log in)
+</UL><UL>
+lcd \temp\photos
+</UL><UL>
+cd web
+</UL><UL>
+binary
+</UL><UL>
+put me.gif
+</UL><UL>
+quit
+</UL><UL>
+
+</UL><UL>
+Before the put command you moved into the proper directory on the hard disk, the proper directory on the server, and set the mode to binary before actually transferring the data.</UL> </P> 
+
+</Body>
+</HTML>

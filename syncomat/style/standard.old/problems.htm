@@ -1,0 +1,66 @@
+<BODY BGCOLOR="#FFFFFF">
+<a href=http://www.real.com/products/player/>
+<img src=freeplayer_g2.gif border=0 align=left>
+</a>
+<H3> Solving Problems with Viewing the lecture</H3>
+This page is designed to help you with problems while viewing the lectures. 
+!IFDEF WEB
+The problems which you may encounter will fall into several categories.
+<ul>
+<li>
+It is important to have the proper version of the RealPlayer installed on your computer.
+!ENDIF
+!IFDEF CDROM
+Typically the only problem with viewing from a CD-ROM or local disk is getting 
+the proper version of the RealPlayer installed.
+!ENDIF
+You should install the Realplayer available at no charge
+from <a href=http://www.real.com/products/player/ target=_top>
+www.real.com/products/player/</a>.  
+!IFDEF WEB
+<li>Sluggish network connection - you can pre-cache the slides 
+!IFDEF AUDIOANDVIDEO
+or switch to Audio-Only view of the lecture
+!ENDIF
+<li>You connection is behind a firewall which will not pass the streaming protocol - 
+you can view the lecture using pseudo-streaming or via a direct download.
+</UL>
+This document has some solutions for the problems.
+<UL>
+<LI>Slow Network: <a href=cache.htm>Pre-Cache Lecture Slides</a>
+!IFDEF AUDIO
+!IFDEF VIDEO
+<li>Slow Network or 486 Computer:
+<a href=af001.htm target=_parent>Switch to Audio </a>
+!ENDIF
+!ENDIF
+<LI>Firewall:
+!FORPART 
+<BR> Part P#P:
+!IFDEF AUDIO
+<a href=astrP#P.ram>
+<BR>Pseudo-Streaming Audio
+</a>
+!ENDIF
+!IFDEF VIDEO
+<a href=vstrP#P.ram>
+<BR>Pseudo-Streaming Video
+</a>
+!ENDIF
+!ENDPART
+<LI>Firewall second try (only use on a fast connection) :
+!FORPART 
+<BR> Part P#P:
+!IFDEF AUDIO
+<a href=N*NP#P.ra>
+<BR>Off-Line Play Audio
+</a>
+!ENDIF
+!IFDEF VIDEO
+<a href=N*NP#P.rm>
+<BR>Off-Line Play Video
+</a>
+!ENDIF
+!ENDPART
+!ENDIF
+</UL>

@@ -1,0 +1,20 @@
+<!--
+s/@TITLE@/Grades and Homework/
+s/@THIS@/Grades/
+-->
+The grading in EGR124 is a modified <b>mastery </b> model.  Each of the class
+activities will be graded in a pass/fail mode.  Instead of accumulating 
+"points", each student completes assignments.  Based on the number of 
+passed assignments, the final grade will be computed.  As EGR124 is evolving,
+the exact details on how grades will be computed will change over time.
+<p>
+Eventually I would like to move toward a model similar to CPS101 at 
+Michigan State University where passing "bridge tasks" moves your grade
+from 0.0 to 3.0 and a graded project will determine whether or not
+you get a 3.0, 3.5, or 4.0.
+<p>
+If you have any questions about grading, send me a note at crs@egr.msu.edu.
+<address>
+Dr. Chuck
+</address>
+
